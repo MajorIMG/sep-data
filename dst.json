@@ -138,7 +138,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-31",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5673-AR) has since closed the incident on Aug 26, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-26",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "AR",
@@ -256,7 +258,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-05-29",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3646-CA) has since closed the incident on May 29, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-05-29",
+   "possible_sep_end": "2026-07-31"
   },
   {
    "state": "CA",
@@ -946,7 +950,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-10-20",
-   "note": "Source lists 'Taylor Wakulla' without comma; split into Taylor and Wakulla. Incident end 10/08/2027 is a year after start (possible typo for 10/08/2026)"
+   "note": "Source lists 'Taylor Wakulla' without comma; split into Taylor and Wakulla. Incident end 10/08/2027 is a year after start (possible typo for 10/08/2026) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3655-FL) has since closed the incident on Oct 12, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-10-12",
+   "possible_sep_end": "2026-12-31"
   },
   {
    "state": "GA",
@@ -1086,7 +1092,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-10-20",
-   "note": "Source has missing commas ('Clay Clayton', 'Talbot Taylor'); split. Incident end 10/09/2027 is a year after start (possible typo)"
+   "note": "Source has missing commas ('Clay Clayton', 'Talbot Taylor'); split. Incident end 10/09/2027 is a year after start (possible typo) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3657-GA) has since closed the incident on Oct 15, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-10-15",
+   "possible_sep_end": "2026-12-31"
   },
   {
    "state": "GU",
@@ -1166,7 +1174,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-04-21",
-   "note": "Guam areas given as \"All Counties\""
+   "note": "Guam areas given as \"All Counties\" These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4921-GU, EM-3644-GU) has since closed the incident on Apr 18, 2026. Under CMS rules the SEP may have already ended (as early as Jun 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-04-18",
+   "possible_sep_end": "2026-06-30"
   },
   {
    "state": "GU",
@@ -1182,7 +1192,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-07-13",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3648-GU) has since closed the incident on Jul 12, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-07-12",
+   "possible_sep_end": "2026-09-30"
   },
   {
    "state": "HI",
@@ -2467,7 +2479,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-03-24",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4920-NE, FM-5623-NE) has since closed the incident on Apr 2, 2026. Under CMS rules the SEP may have already ended (as early as Jun 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-04-02",
+   "possible_sep_end": "2026-06-30"
   },
   {
    "state": "NE",
@@ -2484,7 +2498,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-06-15",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5637-NE) has since closed the incident on Jun 21, 2026. Under CMS rules the SEP may have already ended (as early as Aug 31, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-06-21",
+   "possible_sep_end": "2026-08-31"
   },
   {
    "state": "NH",
@@ -2675,7 +2691,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-17",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5663-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-17",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "NV",
@@ -2691,7 +2709,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-17",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5667-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-17",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "NV",
@@ -2707,7 +2727,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-17",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5668-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-17",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "NV",
@@ -2889,7 +2911,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-01-12",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5615-OK) has since closed the incident on Dec 30, 2025. Under CMS rules the SEP may have already ended (as early as Feb 28, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2025-12-30",
+   "possible_sep_end": "2026-02-28"
   },
   {
    "state": "OK",
@@ -2905,7 +2929,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-02-24",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-02-24",
+   "possible_sep_end": "2026-04-30"
   },
   {
    "state": "OK",
@@ -2921,7 +2947,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-03-03",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5620-OK) has since closed the incident on Feb 22, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-02-22",
+   "possible_sep_end": "2026-04-30"
   },
   {
    "state": "OK",
@@ -2937,7 +2965,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-02-24",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-02-24",
+   "possible_sep_end": "2026-04-30"
   },
   {
    "state": "OK",
@@ -2954,7 +2984,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-03-03",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5620-OK, FM-5621-OK) has since closed the incident on Feb 26, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-02-26",
+   "possible_sep_end": "2026-04-30"
   },
   {
    "state": "OK",
@@ -2970,7 +3002,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-02-24",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-02-24",
+   "possible_sep_end": "2026-04-30"
   },
   {
    "state": "OK",
@@ -2986,7 +3020,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-03-24",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5624-OK) has since closed the incident on Mar 16, 2026. Under CMS rules the SEP may have already ended (as early as May 31, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-03-16",
+   "possible_sep_end": "2026-05-31"
   },
   {
    "state": "OK",
@@ -3051,7 +3087,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-17",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5669-OK) has since closed the incident on Aug 16, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-16",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "OK",
@@ -3540,7 +3578,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-02-03",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4898-TN, EM-3635-TN) has since closed the incident on Jan 27, 2026. Under CMS rules the SEP may have already ended (as early as Mar 31, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-01-27",
+   "possible_sep_end": "2026-03-31"
   },
   {
    "state": "TX",
@@ -3997,7 +4037,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-05-18",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5633-TX) has since closed the incident on May 19, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-05-19",
+   "possible_sep_end": "2026-07-31"
   },
   {
    "state": "TX",
@@ -4045,7 +4087,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-07-27",
-   "note": "'Jim Wills' as listed (likely Jim Wells)"
+   "note": "'Jim Wills' as listed (likely Jim Wells) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-04",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "TX",
@@ -4061,7 +4105,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-31",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5675-TX) has since closed the incident on Sep 16, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-09-16",
+   "possible_sep_end": "2026-11-30"
   },
   {
    "state": "TX",
@@ -4077,7 +4123,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-09-21",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5677-TX) has since closed the incident on Sep 25, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-09-25",
+   "possible_sep_end": "2026-11-30"
   },
   {
    "state": "TX",
@@ -4167,7 +4215,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-07-06",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5641-UT) has since closed the incident on Jul 7, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-07-07",
+   "possible_sep_end": "2026-09-30"
   },
   {
    "state": "UT",
@@ -4183,7 +4233,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-06-29",
-   "note": "Listed as 'Beaver City County' (likely Beaver County)"
+   "note": "Listed as 'Beaver City County' (likely Beaver County) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5640-UT) has since closed the incident on Aug 5, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-05",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "UT",
@@ -4201,7 +4253,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-06-29",
-   "note": "'Toole' as listed (Utah county is Tooele)"
+   "note": "'Toole' as listed (Utah county is Tooele) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5639-UT) has since closed the incident on Jul 3, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-07-03",
+   "possible_sep_end": "2026-09-30"
   },
   {
    "state": "UT",
@@ -4412,7 +4466,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-07",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-31",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "WA",
@@ -4428,7 +4484,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-07",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-31",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "WA",
@@ -4444,7 +4502,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-07",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-31",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "WA",
@@ -4484,7 +4544,9 @@
    ],
    "source": "HealthSpring",
    "source_email_date": "2026-08-07",
-   "note": null
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "fema_incident_end": "2026-08-31",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "WI",
