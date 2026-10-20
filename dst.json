@@ -3,7 +3,7 @@
  "title": "Medicare disaster (DST) SEP list",
  "updated": "2026-10-20",
  "sources": {
-  "carrier": "HealthSpring weekly DST-SEP producer emails (combined; each email covers only some states)",
+  "carrier": "Carrier DST tracker (Oct 19, 2026), plus HealthSpring weekly DST-SEP producer emails",
   "fema": "FEMA OpenFEMA Disaster Declarations feed"
  },
  "notice": "Carrier lists are not complete and can contain typos. Always confirm eligibility and dates with the carrier before submitting. A DST SEP is not a standalone election period.",
@@ -11,40 +11,37 @@
   {
    "state": "AK",
    "type": "State",
-   "name": "Catastrophic Flooding",
-   "status": "New",
-   "incident_start": "2026-08-12",
-   "incident_end": "2026-10-09",
-   "sep_start": "2026-08-12",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Juneau Borough"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
-  },
-  {
-   "state": "AK",
-   "type": "State",
    "name": "Flooding",
-   "status": "New",
    "incident_start": "2026-07-21",
    "incident_end": "2026-10-01",
    "sep_start": "2026-07-21",
    "sep_end": "2026-11-30",
    "areas": [
-    "Matanuska-Susitna Borough"
+    "Matanuska-Susitna"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "AK",
+   "type": "State",
+   "name": "Catastrophic Flooding",
+   "incident_start": "2026-08-12",
+   "incident_end": "2026-10-09",
+   "sep_start": "2026-08-12",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Juneau"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "AK",
    "type": "FEMA/FMAG",
    "name": "Mukluk Fire",
-   "status": "New",
    "incident_start": "2026-08-17",
    "incident_end": "2027-08-17",
    "sep_start": "2026-08-17",
@@ -52,67 +49,64 @@
    "areas": [
     "Southeast Fairbanks"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
-  },
-  {
-   "state": "AL",
-   "type": "PHE",
-   "name": "Hurricane Isaias",
-   "status": "New",
-   "incident_start": "2026-10-07",
-   "incident_end": "2027-02-08",
-   "sep_start": "2026-10-07",
-   "sep_end": "2027-03-31",
-   "areas": [
-    "Entire State"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "AL",
    "type": "State",
    "name": "Hurricane Isaias",
-   "status": "Amended",
    "incident_start": "2026-10-07",
-   "incident_end": "2026-11-26",
+   "incident_end": "2027-02-08",
    "sep_start": "2026-10-07",
-   "sep_end": "2027-12-31",
+   "sep_end": "2026-12-31",
    "areas": [
     "Baldwin",
     "Mobile"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Amended",
+   "note": "10/14/26: Amendment. Date changed from 10/7/2027 - 1/31/2027 to 10/7/2027 - 12/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "AL",
+   "type": "PHE",
+   "name": "Hurricane Isaias",
+   "incident_start": "2026-10-07",
+   "incident_end": "2027-02-08",
+   "sep_start": "2026-10-07",
+   "sep_end": "2027-03-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "AL",
    "type": "FEMA",
    "name": "Hurricane Isaias",
-   "status": "Amended",
    "incident_start": "2026-10-07",
-   "incident_end": "2026-10-08",
+   "incident_end": "2027-02-08",
    "sep_start": "2026-10-07",
    "sep_end": "2027-12-31",
    "areas": [
     "Baldwin",
     "Escambia",
     "Mobile",
-    "Poarch Creek Reservation and Trust Lands"
+    "Poarch Creek Reservation",
+    "Trust Lands"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "AR",
    "type": "State",
    "name": "Severe Wildfires",
-   "status": "New",
    "incident_start": "2026-08-20",
    "incident_end": "2026-11-17",
    "sep_start": "2026-08-20",
@@ -120,25 +114,24 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "AR",
    "type": "FEMA/FMAG",
    "name": "Pine Tree Road Fire",
-   "status": "New",
    "incident_start": "2026-08-21",
-   "incident_end": "2027-08-20",
+   "incident_end": null,
    "sep_start": "2026-08-21",
    "sep_end": "2027-10-31",
    "areas": [
     "Union"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5673-AR) has since closed the incident on Aug 26, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5673-AR) has since closed the incident on Aug 26, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-26",
    "possible_sep_end": "2026-10-31"
   },
@@ -146,7 +139,6 @@
    "state": "AR",
    "type": "FEMA/FMAG",
    "name": "Bunker Fire",
-   "status": "New",
    "incident_start": "2026-09-14",
    "incident_end": "2027-09-14",
    "sep_start": "2026-09-14",
@@ -155,15 +147,14 @@
     "Calhoun",
     "Ouachita"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
    "type": "State",
    "name": "Warehouse Fire",
-   "status": "New",
    "incident_start": "2026-06-17",
    "incident_end": "2026-09-16",
    "sep_start": "2026-06-17",
@@ -171,15 +162,45 @@
    "areas": [
     "Los Angeles"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-29",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
    "type": "FEMA/FMAG",
+   "name": "Canyon Fire",
+   "incident_start": "2025-08-07",
+   "incident_end": null,
+   "sep_start": "2025-08-07",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Ventura",
+    "Los Angeles"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CA",
+   "type": "FEMA/FMAG",
+   "name": "2-7 Fire",
+   "incident_start": "2025-09-02",
+   "incident_end": null,
+   "sep_start": "2025-09-02",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Calaveras"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CA",
+   "type": "State",
    "name": "February 2026 Storms",
-   "status": "New",
    "incident_start": "2026-02-15",
    "incident_end": "2026-12-18",
    "sep_start": "2026-02-15",
@@ -189,25 +210,57 @@
     "Humboldt",
     "Mendocino"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": "Labeled FEMA/FMAG (fire assistance) for a storm event"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CA",
+   "type": "State",
+   "name": "Tropical Storm Rachel",
+   "incident_start": "2026-10-11",
+   "incident_end": "2027-01-11",
+   "sep_start": "2026-10-11",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Imperial",
+    "Los Angeles",
+    "Orange",
+    "San Diego"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
    "type": "State",
    "name": "Dove Fire",
-   "status": "New",
    "incident_start": "2026-07-26",
    "incident_end": "2027-01-11",
    "sep_start": "2026-07-26",
    "sep_end": "2027-02-28",
    "areas": [
-    "Toulumne"
+    "Tuolumne"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": "County listed as 'Toulumne' (likely typo for Tuolumne)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CA",
+   "type": "State",
+   "name": "Gann Fire",
+   "incident_start": "2026-08-03",
+   "incident_end": "2027-01-11",
+   "sep_start": "2026-08-03",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Calaveras"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
@@ -227,78 +280,100 @@
   },
   {
    "state": "CA",
-   "type": "State",
-   "name": "Tropical Storm Rachel",
-   "status": "New",
-   "incident_start": "2026-10-11",
-   "incident_end": "2027-01-11",
-   "sep_start": "2026-10-11",
-   "sep_end": "2027-02-28",
+   "type": "FEMA/FMAG",
+   "name": "Bain Fire",
+   "incident_start": "2026-05-19",
+   "incident_end": null,
+   "sep_start": "2026-05-19",
+   "sep_end": "2027-07-31",
    "areas": [
-    "Imperial",
-    "Los Angeles",
-    "Orange",
-    "San Diego"
+    "Riverside"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CA",
+   "type": "FEMA/FMAG",
+   "name": "Sandy Fire",
+   "incident_start": "2026-05-18",
+   "incident_end": null,
+   "sep_start": "2026-05-18",
+   "sep_end": "2027-07-31",
+   "areas": [
+    "Ventura"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
    "type": "FEMA",
    "name": "Chemical Release",
-   "status": "New",
    "incident_start": "2026-05-21",
-   "incident_end": "2027-05-24",
+   "incident_end": null,
    "sep_start": "2026-05-21",
    "sep_end": "2027-07-31",
    "areas": [
     "Orange"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-05-29",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3646-CA) has since closed the incident on May 29, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3646-CA) has since closed the incident on May 29, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-05-29",
    "possible_sep_end": "2026-07-31"
   },
   {
    "state": "CA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Dove Fire",
-   "status": "New",
    "incident_start": "2026-07-26",
-   "incident_end": "2027-07-25",
-   "sep_start": "2024-07-26",
+   "incident_end": "2027-01-11",
+   "sep_start": "2026-07-26",
    "sep_end": "2027-09-30",
    "areas": [
     "Tuolumne"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": "SEP effective start printed as 07/26/2024 (incident starts 07/26/2026; likely typo)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CA",
    "type": "FEMA/FMAG",
    "name": "Gann Fire",
-   "status": "New",
    "incident_start": "2026-08-03",
-   "incident_end": "2027-08-03",
+   "incident_end": "2027-01-11",
    "sep_start": "2026-08-03",
    "sep_end": "2027-10-31",
    "areas": [
     "Calaveras"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "Dates printed with 2-digit years (08/03/26 etc.)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "Elk Fire",
+   "incident_start": "2025-08-02",
+   "incident_end": null,
+   "sep_start": "2025-08-02",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Rio Blanco"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
    "name": "Green Ridge Fire",
-   "status": "New",
    "incident_start": "2026-07-12",
    "incident_end": "2026-09-08",
    "sep_start": "2026-07-12",
@@ -306,48 +381,44 @@
    "areas": [
     "Routt"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
-   "name": "310 Fire",
-   "status": "New",
-   "incident_start": "2026-08-06",
-   "incident_end": "2026-10-04",
-   "sep_start": "2026-08-06",
-   "sep_end": "2026-11-30",
+   "name": "Lee Fire",
+   "incident_start": "2025-08-02",
+   "incident_end": null,
+   "sep_start": "2025-08-02",
+   "sep_end": "2026-10-31",
    "areas": [
-    "Garfield"
+    "Rio Blanco"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
-   "name": "Aspen Acres Fire",
-   "status": "New",
-   "incident_start": "2026-06-29",
-   "incident_end": "2026-10-18",
-   "sep_start": "2026-06-29",
-   "sep_end": "2026-11-30",
+   "name": "Oak Fire",
+   "incident_start": "2025-08-10",
+   "incident_end": null,
+   "sep_start": "2025-08-10",
+   "sep_end": "2026-10-31",
    "areas": [
-    "Custer",
-    "Pueblo"
+    "Archuleta"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
    "name": "Ferris Fire",
-   "status": "Renewed",
    "incident_start": "2026-06-27",
    "incident_end": "2026-10-03",
    "sep_start": "2026-06-27",
@@ -356,31 +427,14 @@
     "Dolores",
     "Montezuma"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "Gold Mountain Fire",
-   "status": "New",
-   "incident_start": "2026-06-28",
-   "incident_end": "2026-10-18",
-   "sep_start": "2026-06-28",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Ouray"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Renewed",
+   "note": "8/6/26: Renewal: Dates changed from 6/27/2026 -10/31/2026 to 6/27/2026 -11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
    "name": "Indian Creek Fire",
-   "status": "New",
    "incident_start": "2026-08-04",
    "incident_end": "2026-10-02",
    "sep_start": "2026-08-04",
@@ -388,15 +442,60 @@
    "areas": [
     "Jackson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "Aspen Acres Fire",
+   "incident_start": "2026-06-29",
+   "incident_end": "2026-10-18",
+   "sep_start": "2026-06-29",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Custer",
+    "Pueblo"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "Gold Mountain Fire",
+   "incident_start": "2026-06-28",
+   "incident_end": "2026-10-18",
+   "sep_start": "2026-06-28",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Ouray"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "310 Fire",
+   "incident_start": "2026-08-06",
+   "incident_end": "2026-10-04",
+   "sep_start": "2026-08-06",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Garfield"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
    "name": "Post Fire",
-   "status": "New",
    "incident_start": "2026-08-12",
    "incident_end": "2026-10-10",
    "sep_start": "2026-08-12",
@@ -404,47 +503,14 @@
    "areas": [
     "Las Animas"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "The Gotera Fire",
-   "status": "New",
-   "incident_start": "2026-08-12",
-   "incident_end": "2026-10-10",
-   "sep_start": "2026-08-12",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Las Animas"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "The High Fence Fire",
-   "status": "New",
-   "incident_start": "2026-08-12",
-   "incident_end": "2026-10-10",
-   "sep_start": "2026-08-12",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Las Animas"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "State",
    "name": "The Sheep Pen Fire",
-   "status": "New",
    "incident_start": "2026-08-11",
    "incident_end": "2026-10-10",
    "sep_start": "2026-08-11",
@@ -452,15 +518,44 @@
    "areas": [
     "Las Animas"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "The High Fence Fire",
+   "incident_start": "2026-08-12",
+   "incident_end": "2026-10-10",
+   "sep_start": "2026-08-12",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Las Animas"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "The Gotera Fire",
+   "incident_start": "2026-08-12",
+   "incident_end": "2026-10-10",
+   "sep_start": "2026-08-12",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Las Animas"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
    "type": "FEMA",
    "name": "Wildfires, Flooding, and Mudslides",
-   "status": "New",
    "incident_start": "2026-06-27",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-27",
@@ -471,47 +566,44 @@
     "Ouray",
     "Pueblo"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-14",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Aspen Acres Fire",
-   "status": "New",
    "incident_start": "2026-06-29",
-   "incident_end": "2027-06-28",
+   "incident_end": "2026-10-18",
    "sep_start": "2026-06-29",
    "sep_end": "2027-08-31",
    "areas": [
     "Custer"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-06",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Gold Mountain Fire",
-   "status": "New",
    "incident_start": "2026-06-28",
-   "incident_end": "2027-06-29",
+   "incident_end": "2026-10-18",
    "sep_start": "2026-06-28",
    "sep_end": "2027-08-31",
    "areas": [
-    "Custer"
+    "Ouray"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-06",
-   "note": "FEMA Gold Mountain Fire lists Custer County, while the State Gold Mountain Fire declaration lists Ouray County; possible error"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Willow Fire",
-   "status": "New",
    "incident_start": "2026-06-28",
    "incident_end": "2027-07-04",
    "sep_start": "2026-06-28",
@@ -519,31 +611,29 @@
    "areas": [
     "Lake"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "DC",
-   "type": "FEMA",
+   "type": "State",
    "name": "Sewer Line Collapse",
-   "status": "New",
    "incident_start": "2026-01-19",
    "incident_end": "2027-02-19",
    "sep_start": "2026-01-19",
    "sep_end": "2027-04-30",
    "areas": [
-    "All"
+    "District-wide"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-03",
-   "note": "DC areas given as \"All Counties\""
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "May North Florida Tornadoes",
-   "status": "Renewed",
    "incident_start": "2024-05-10",
    "incident_end": "2026-09-15",
    "sep_start": "2024-05-10",
@@ -565,15 +655,14 @@
     "Taylor",
     "Wakulla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-29",
-   "note": null
+   "status": "Expiring",
+   "note": "8/28/26: Renewal: Date changed from 5/10/2025 - 10/31/2026 to 5/10/2025 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "Hurricane Debby",
-   "status": "Renewed",
    "incident_start": "2024-08-01",
    "incident_end": "2026-12-25",
    "sep_start": "2024-08-01",
@@ -641,17 +730,16 @@
     "Walton",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Renewed",
+   "note": "8/28/26: Renewal: Date changed from 8/1/2024 - 11/30/2026 to 8/1/2024 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
-   "name": "Hurricane Helene",
-   "status": "Renewed",
+   "name": "Hurricane Helene\n\nPreviously: Potential Tropical Cyclone Nine",
    "incident_start": "2024-09-23",
-   "incident_end": "2026-12-25",
+   "incident_end": null,
    "sep_start": "2024-09-23",
    "sep_end": "2027-01-31",
    "areas": [
@@ -717,15 +805,29 @@
     "Walton",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": "Earlier emails name this \"Hurricane Helene (Previously: Potential Tropical Cyclone Nine)\"; same Declaration #564, merged."
+   "status": "Renewed",
+   "note": "8/28/26: Renewal: Date changed from 9/23/2024 - 10/31/2026 to 9/23/2024 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "FL",
+   "type": "State",
+   "name": "Illegal Migration",
+   "incident_start": "2023-01-06",
+   "incident_end": null,
+   "sep_start": "2023-01-06",
+   "sep_end": "2027-01-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Renewed",
+   "note": "7/31/25 Renewal: renewed. Date changed from 1/6/2023 - 9/30/2025 to 1/6/2023 - 11/30/2025 \n9/29/25 Renewal: Date changed from 1/6/2023 - 11/30/2025 to 1/6/2023 - 1/31/2026\n11/25/2025 Renewal: Date changed from 1/6/2023 - 1/31/2026 to 1/6/2023 - 3/31/2026\n1/23/26:  Renewal: Date change from 1/6/2023 - 3/31/2026 to 1/6/2023 - 5/31/2026\n3/24/26:  Renewal: Date change from 1/6/2023 - 5/31/2026 to 1/6/2023 - 7/31/2026\n5/21/26  Renewal:  Date changed from 1/6/2023 - 7/31/2026 to 1/6/2023 - 11/30/2026\n7/21/2026 Renewal: Date changed from 1/6/2023 - 9/30/2026 to 1/6/2023 - 11/30/2026\n9/18/26: Renewal: Date changed from 1/6/2023 - 11/30/2026 to 1/6/2023 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "Impacts of Winter Weather, Droughts, and Wildfire Risks",
-   "status": "Renewed",
    "incident_start": "2026-01-31",
    "incident_end": "2026-12-12",
    "sep_start": "2026-01-31",
@@ -733,15 +835,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
+   "status": "Renewed",
+   "note": "8/7/26 Renewal: Dates changed from 1/31/2026 - 10/31/2026 to 1/31/2026 - 12/31/2026\n9/15/26: Renewal: Date changed from 1/31/2026 - 12/31/2026 to 1/31/2026 - 1/31/2027.",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "Northwest Florida May Tornadoes",
-   "status": "Renewed",
    "incident_start": "2025-05-10",
    "incident_end": "2026-12-25",
    "sep_start": "2025-05-10",
@@ -749,15 +850,14 @@
    "areas": [
     "Holmes"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Renewed",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "Tropical Storm Milton",
-   "status": "Renewed",
    "incident_start": "2024-10-05",
    "incident_end": "2026-12-15",
    "sep_start": "2024-10-05",
@@ -815,15 +915,14 @@
     "Union",
     "Volusia"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": "'Suwanee' as listed (likely Suwannee)"
+   "status": "Renewed",
+   "note": "10/6/2024 Amendment 1: Adds Alachua, Baker, Bradford, Clay, Columbia, Dixie, Duval, Gilchrist, Hamilton, Lafayette, Levy, Madison, Manatee, Nassau, Suwanee, Taylor, and Union Counties.    \n12/3/2024 Renewal:  Date changed from 10/5/2024 - 2/28/2025 to 10/5/2024 - 3/31/2025\n1/31/2025 Renewal: Date changed from to 10/5/2024 - 3/31/2025 from 10/5/2024 - 5/31/2025 Removed Contract Code H7849\n3/31/2025 Renewal: Date changed from 10/5/2024 - 5/31/2025 to 10/5/2024 - 7/31/2025 \n5/29/2025 Renewal:  Date changed from 10/5/2024 - 7/31/2025 to 10/5/2024 - 9/30/2025\nDate changed from 10/5/2024 - 9/30/2025 to 10/5/2024 - 11/30/2025\n9/26/2025 Renewal: Date changed from 10/5/2024 - 11/30/2025 to  10/5/2024 - 1/31/2026\n11/25/2025 Renewal: Date changed from 10/5/2024 - 11/30/2025 to  10/5/2024 - 3/31/2026\n1/23/26 Renewal: Date changed from 10/5/2024 - 3/31/2026 to 10/5/2024 - 5/31/2026\n3/24/26 Renewal: Date changed from 10/5/2024 - 5/31/2026 to 10/5/2024 - 7/31/2026\n5/21/26  Renewal: 10/5/2024 - 7/31/2026 to 10/5/2024 - 9/30/2026\n7/21/2026 Renewal:  Date changed from 10/5/2024 - 9/30/2026 to 10/5/2024 - 11/30/2026\n9/18/26: Renewal- Date changed from 10/5/2024 - 11/30/2026 to 10/5/2024 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "State",
    "name": "Tropical Storm Isaias (fka Tropical Depression Nine)",
-   "status": "New",
    "incident_start": "2026-10-06",
    "incident_end": "2027-01-03",
    "sep_start": "2026-10-06",
@@ -857,31 +956,29 @@
     "Wakulla",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-12",
-   "note": "Email shows two 'Declaration information' links for this one entry (first marked New, second unlabeled)"
+   "status": "Active",
+   "note": "SLGBizhub26100619090",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "PHE",
    "name": "Hurricane Isaias",
-   "status": "New",
    "incident_start": "2026-10-06",
    "incident_end": "2027-02-08",
    "sep_start": "2026-10-06",
    "sep_end": "2027-03-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Cow Creek Fire",
-   "status": null,
    "incident_start": "2026-04-21",
    "incident_end": "2027-04-23",
    "sep_start": "2026-04-21",
@@ -889,34 +986,32 @@
    "areas": [
     "Levy"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-27",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
-   "type": "FEMA",
-   "name": "Railroad Complex",
-   "status": null,
+   "type": "FEMA/FMAG",
+   "name": "Railroad Complex Fire",
    "incident_start": "2026-04-19",
-   "incident_end": "2027-04-22",
+   "incident_end": null,
    "sep_start": "2026-04-19",
    "sep_end": "2027-06-30",
    "areas": [
     "Putnam",
     "Clay"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-27",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "FL",
    "type": "FEMA",
    "name": "Hurricane Isaias",
-   "status": "New",
    "incident_start": "2026-10-06",
-   "incident_end": "2027-10-08",
+   "incident_end": "2027-02-08",
    "sep_start": "2026-10-06",
    "sep_end": "2027-12-31",
    "areas": [
@@ -943,14 +1038,13 @@
     "Okaloosa",
     "Santa Rosa",
     "Suwannee",
-    "Taylor",
-    "Wakulla",
+    "Taylor Wakulla",
     "Walton",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": "Source lists 'Taylor Wakulla' without comma; split into Taylor and Wakulla. Incident end 10/08/2027 is a year after start (possible typo for 10/08/2026) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3655-FL) has since closed the incident on Oct 12, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3655-FL) has since closed the incident on Oct 12, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-10-12",
    "possible_sep_end": "2026-12-31"
   },
@@ -958,23 +1052,21 @@
    "state": "GA",
    "type": "State",
    "name": "Hurricane Isaias",
-   "status": "New",
-   "incident_start": "2026-10-09",
-   "incident_end": "2026-12-05",
+   "incident_start": "2026-10-08",
+   "incident_end": "2027-10-09",
    "sep_start": "2026-10-09",
    "sep_end": "2027-01-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-12",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Highway 82 Fire",
-   "status": null,
    "incident_start": "2026-04-21",
    "incident_end": "2027-04-21",
    "sep_start": "2026-04-21",
@@ -982,15 +1074,14 @@
    "areas": [
     "Brantly"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-27",
-   "note": "\"Brantly\" sic (Brantley)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Pineland Road Fire",
-   "status": null,
    "incident_start": "2026-04-18",
    "incident_end": "2027-04-18",
    "sep_start": "2026-04-18",
@@ -999,15 +1090,14 @@
     "Clinch",
     "Echols"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-27",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GA",
    "type": "FEMA",
    "name": "Hurricane Isaias",
-   "status": "New",
    "incident_start": "2026-10-08",
    "incident_end": "2027-10-09",
    "sep_start": "2026-10-08",
@@ -1024,8 +1114,7 @@
     "Chattooga",
     "Cherokee",
     "Clarke",
-    "Clay",
-    "Clayton",
+    "Clay Clayton",
     "Cobb",
     "Colquitt",
     "Coweta",
@@ -1075,8 +1164,7 @@
     "Spalding",
     "Stewart",
     "Sumter",
-    "Talbot",
-    "Taylor",
+    "Talbot Taylor",
     "Terrell",
     "Thomas",
     "Towns",
@@ -1090,9 +1178,9 @@
     "Whitfield",
     "Worth"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": "Source has missing commas ('Clay Clayton', 'Talbot Taylor'); split. Incident end 10/09/2027 is a year after start (possible typo) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3657-GA) has since closed the incident on Oct 15, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3657-GA) has since closed the incident on Oct 15, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-10-15",
    "possible_sep_end": "2026-12-31"
   },
@@ -1100,7 +1188,6 @@
    "state": "GU",
    "type": "FEMA",
    "name": "Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-02",
    "incident_end": "2026-09-08",
    "sep_start": "2026-07-02",
@@ -1108,47 +1195,44 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Expiring",
+   "note": "8/10/26: Amendment closes incident period. Date changed from 7/2/2026 - 9/30/2027 to 7/2/2026 - 10/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GU",
    "type": "FEMA",
    "name": "Super Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-04",
    "incident_end": "2026-11-05",
    "sep_start": "2026-07-04",
    "sep_end": "2026-12-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": "Guam is a territory; source says 'Entire State'"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GU",
-   "type": "State",
+   "type": "PHE",
    "name": "Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-02",
-   "incident_end": "2026-11-04",
+   "incident_end": "2026-09-08",
    "sep_start": "2026-07-02",
    "sep_end": "2026-12-31",
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": "Declaration link for this Guam entry is the same URL as the CNMI Typhoon Bavi entry"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "GU",
-   "type": "State",
+   "type": "PHE",
    "name": "Typhoon Sinlaku",
-   "status": "Renewed",
    "incident_start": "2026-04-11",
    "incident_end": "2026-11-05",
    "sep_start": "2026-04-11",
@@ -1156,67 +1240,104 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
-  },
-  {
-   "state": "GU",
-   "type": "FEMA",
-   "name": "Typhoon Sinlaku",
-   "status": "New",
-   "incident_start": "2026-04-11",
-   "incident_end": "2027-04-11",
-   "sep_start": "2026-04-11",
-   "sep_end": "2027-06-30",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-21",
-   "note": "Guam areas given as \"All Counties\" These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4921-GU, EM-3644-GU) has since closed the incident on Apr 18, 2026. Under CMS rules the SEP may have already ended (as early as Jun 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-04-18",
-   "possible_sep_end": "2026-06-30"
-  },
-  {
-   "state": "GU",
-   "type": "FEMA",
-   "name": "Guam Typhoon Bavi",
-   "status": "New",
-   "incident_start": "2026-07-02",
-   "incident_end": "2027-07-02",
-   "sep_start": "2026-07-02",
-   "sep_end": "2027-09-30",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3648-GU) has since closed the incident on Jul 12, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-07-12",
-   "possible_sep_end": "2026-09-30"
+   "status": "Renewed",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "State",
-   "name": "Severe Storms, Flooding, Landslides, and Mudslides",
-   "status": "Renewed",
-   "incident_start": "2026-03-10",
-   "incident_end": "2026-10-04",
-   "sep_start": "2026-03-10",
-   "sep_end": "2026-11-30",
+   "name": "Kunia Road Fire",
+   "incident_start": "2025-08-19",
+   "incident_end": null,
+   "sep_start": "2025-08-19",
+   "sep_end": "2026-10-31",
    "areas": [
-    "All"
+    "Honolulu"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-15",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "FEMA",
    "name": "Hurricane LALA",
-   "status": "New",
+   "incident_start": "2026-08-14",
+   "incident_end": "2026-11-05",
+   "sep_start": "2026-08-14",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Hawaii"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "Holomua Fire",
+   "incident_start": "2025-09-23",
+   "incident_end": null,
+   "sep_start": "2025-09-23",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Maui"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "Wildfires",
+   "incident_start": "2026-08-08",
+   "incident_end": "2026-11-21",
+   "sep_start": "2026-08-08",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "Tropical Storm LALA",
+   "incident_start": "2026-08-13",
+   "incident_end": "2026-11-17",
+   "sep_start": "2026-08-13",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Renewed",
+   "note": "8/20/26: Renewal Dates changed from 8/13/2026 - 10/31/2026 to 8/13/2026 - 12/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "Tropical Cyclones",
+   "incident_start": "2026-09-25",
+   "incident_end": "2026-12-20",
+   "sep_start": "2026-09-25",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "FEMA",
+   "name": "Hurricane LALA",
    "incident_start": "2026-08-14",
    "incident_end": "2026-11-05",
    "sep_start": "2026-08-14",
@@ -1227,15 +1348,14 @@
     "Kalawao",
     "Maui"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "FEMA",
    "name": "Hurricane Lowell",
-   "status": "New",
    "incident_start": "2026-09-06",
    "incident_end": "2026-11-05",
    "sep_start": "2026-09-06",
@@ -1244,111 +1364,74 @@
     "Kauai",
     "Maui"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
-  },
-  {
-   "state": "HI",
-   "type": "State",
-   "name": "Tropical Cyclones",
-   "status": "New",
-   "incident_start": "2026-09-25",
-   "incident_end": "2026-12-20",
-   "sep_start": "2026-09-25",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "Entire State"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": null
-  },
-  {
-   "state": "HI",
-   "type": "State",
-   "name": "Tropical Storm LALA",
-   "status": "Renewed",
-   "incident_start": "2026-08-13",
-   "incident_end": "2026-11-17",
-   "sep_start": "2026-08-13",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
-  },
-  {
-   "state": "HI",
-   "type": "State",
-   "name": "Wildfires",
-   "status": "New",
-   "incident_start": "2026-08-08",
-   "incident_end": "2026-11-21",
-   "sep_start": "2026-08-08",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "State",
    "name": "Kona Earthquake",
-   "status": "Renewed",
    "incident_start": "2026-05-22",
    "incident_end": "2026-12-27",
    "sep_start": "2026-05-22",
    "sep_end": "2027-01-31",
    "areas": [
-    "Kona Region in the County of Hawaii"
+    "Kona region in the of Hawaii"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Renewed",
+   "note": "9/29/26: Renewal: Date changed from 5/22/2026 - 12/31/2026 to 5/22/2026 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "State",
    "name": "Kona Low Weather Event",
-   "status": "Renewed",
    "incident_start": "2026-03-10",
    "incident_end": "2026-12-27",
    "sep_start": "2026-03-10",
    "sep_end": "2027-01-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Renewed",
+   "note": "9/29/26: Renewal; Date changed from 3/10/2026 - 11/30/2026 to 3/10/2026 - 1/31/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "Tropical Cyclones",
+   "incident_start": "2026-09-25",
+   "incident_end": "2026-12-20",
+   "sep_start": "2026-08-23",
+   "sep_end": "2027-01-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Amended",
+   "note": "9/2/26: Renewal - Date changed from 8/23/2026 - 12/31/2026 to 8/23/2026 - 1/31/2027\n9/14/26: Amendment adding Hurricane Lowell to the disaster.",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "PHE",
-   "name": "Severe Storms, Flooding, Landslides, and Mudslides",
-   "status": "Renewed",
+   "name": "Severe storms, flooding, landslides, and mudslides",
    "incident_start": "2026-03-10",
-   "incident_end": "2026-12-31",
+   "incident_end": "2026-10-04",
    "sep_start": "2026-03-10",
    "sep_end": "2027-02-28",
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-14",
-   "note": null
+   "status": "Renewed",
+   "note": "9/4/26: Renewal - Date changed from 3/10/2026 - 11/30/2026 to 3/10/2026 - 2/28/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Kawaihae Road Fire",
-   "status": "New",
    "incident_start": "2026-07-25",
    "incident_end": "2027-07-25",
    "sep_start": "2026-07-25",
@@ -1356,15 +1439,14 @@
    "areas": [
     "Hawaii"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
    "type": "FEMA",
    "name": "Earthquake",
-   "status": "New",
    "incident_start": "2026-05-22",
    "incident_end": "2027-08-31",
    "sep_start": "2026-05-22",
@@ -1372,15 +1454,16 @@
    "areas": [
     "Hawaii"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4936-HI) has since closed the incident on May 22, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-05-22",
+   "possible_sep_end": "2026-07-31"
   },
   {
    "state": "HI",
    "type": "FEMA",
    "name": "Tropical Storm Nolo",
-   "status": "New",
    "incident_start": "2026-09-23",
    "incident_end": "2027-09-24",
    "sep_start": "2026-09-23",
@@ -1391,32 +1474,30 @@
     "Kauai",
     "Maui"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "State",
-   "name": "Damaging Winds, Straight-line Winds, Thunderstorms, and Flash Flooding",
-   "status": "New",
+   "name": "Damaging Winds, Straight-line Winds, Thunderstorms and Flash Flooding",
    "incident_start": "2026-07-20",
    "incident_end": "2026-09-21",
    "sep_start": "2026-07-20",
    "sep_end": "2026-10-31",
    "areas": [
     "Franklin",
-    "Harding"
+    "Hardin"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": "'Harding' as listed (Iowa county is Hardin)"
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "State",
-   "name": "Severe Weather, Damaging Winds, Straight-line Thunderstorms",
-   "status": "Amended",
+   "name": "Severe Weather, damaging winds, straight-line thunderstorms",
    "incident_start": "2026-06-29",
    "incident_end": "2026-09-05",
    "sep_start": "2026-06-29",
@@ -1428,15 +1509,14 @@
     "Polk",
     "Story"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": "Email shows two 'Declaration information' links (one New, one Amendment) for a single entry"
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "FEMA",
    "name": "Severe Storms and Flooding",
-   "status": "New",
    "incident_start": "2026-07-01",
    "incident_end": "2026-09-30",
    "sep_start": "2026-07-01",
@@ -1447,15 +1527,14 @@
     "Story",
     "Warren"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "State",
-   "name": "Severe Storm, Straight-line Winds, and Heavy Rainfall",
-   "status": "New",
+   "name": "Severe Storm, Straight-line winds and Heavy Rainfall",
    "incident_start": "2026-09-19",
    "incident_end": "2026-11-26",
    "sep_start": "2026-09-19",
@@ -1463,31 +1542,29 @@
    "areas": [
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "State",
    "name": "Severe Storm System",
-   "status": "New",
    "incident_start": "2026-09-30",
    "incident_end": "2026-12-03",
-   "sep_start": "2026-09-30",
+   "sep_start": "2026-09-29",
    "sep_end": "2027-01-31",
    "areas": [
     "Black Hawk"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-12",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IA",
    "type": "State",
    "name": "Severe Storms",
-   "status": "New",
    "incident_start": "2026-09-29",
    "incident_end": "2026-12-06",
    "sep_start": "2026-09-29",
@@ -1495,15 +1572,29 @@
    "areas": [
     "Pottawattamie"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "ID",
+   "type": "State",
+   "name": "Sunset Fire",
+   "incident_start": "2025-08-13",
+   "incident_end": null,
+   "sep_start": "2025-08-13",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Bonner"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ID",
    "type": "State",
    "name": "Big Grass Fire",
-   "status": "New",
    "incident_start": "2026-07-23",
    "incident_end": "2026-10-25",
    "sep_start": "2026-07-23",
@@ -1511,15 +1602,14 @@
    "areas": [
     "Owyhee"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ID",
    "type": "FEMA/FMAG",
    "name": "Tartar Fire",
-   "status": "New",
    "incident_start": "2026-07-24",
    "incident_end": "2027-08-31",
    "sep_start": "2026-07-24",
@@ -1527,15 +1617,14 @@
    "areas": [
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Damaging Straight-line Winds",
-   "status": "New",
+   "name": "Damaging straight-line winds",
    "incident_start": "2026-05-16",
    "incident_end": "2026-10-15",
    "sep_start": "2026-05-16",
@@ -1543,36 +1632,29 @@
    "areas": [
     "Marshall"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Extensive Rainfall",
-   "status": "New",
-   "incident_start": "2026-08-13",
+   "name": "Tornadoes",
+   "incident_start": "2026-06-10",
    "incident_end": "2026-10-15",
-   "sep_start": "2026-08-13",
+   "sep_start": "2026-06-10",
    "sep_end": "2026-11-30",
    "areas": [
-    "Champagne",
-    "Ford",
-    "Fulton",
-    "McLean",
-    "Tazewell",
-    "Vermilion"
+    "Marshall"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": "'Champagne' as listed (likely Champaign)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
    "name": "Extreme Rainfall",
-   "status": "New",
    "incident_start": "2026-06-19",
    "incident_end": "2026-10-15",
    "sep_start": "2026-06-19",
@@ -1580,15 +1662,29 @@
    "areas": [
     "Marshall"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "IL",
+   "type": "State",
+   "name": "Severe Storms",
+   "incident_start": "2026-07-02",
+   "incident_end": "2026-10-15",
+   "sep_start": "2026-07-02",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Kane"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
    "name": "Flash Flooding",
-   "status": "New",
    "incident_start": "2026-07-09",
    "incident_end": "2026-10-15",
    "sep_start": "2026-07-09",
@@ -1597,51 +1693,14 @@
     "Alexander",
     "Pulaski"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Severe Storms",
-   "status": "New",
-   "incident_start": "2026-07-02",
-   "incident_end": "2026-10-15",
-   "sep_start": "2026-07-02",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Kane"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
-  },
-  {
-   "state": "IL",
-   "type": "State",
-   "name": "Straight-line Winds and Severe Storms",
-   "status": "New",
-   "incident_start": "2026-08-09",
-   "incident_end": "2026-10-15",
-   "sep_start": "2026-08-09",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Champagne",
-    "Cook",
-    "DuPage",
-    "LaSalle",
-    "Will"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": "'Champagne' as listed (likely Champaign)"
-  },
-  {
-   "state": "IL",
-   "type": "State",
-   "name": "Straight-line Winds, and Damaging Hail",
-   "status": "New",
+   "name": "Straight-line winds, and damaging hail",
    "incident_start": "2026-07-27",
    "incident_end": "2026-10-15",
    "sep_start": "2026-07-27",
@@ -1650,34 +1709,56 @@
     "Cook",
     "DuPage",
     "Lake",
-    "Vermillion",
+    "Vermilion",
     "Will"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": "'Vermillion' as listed (Illinois county is Vermilion)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Tornadoes",
-   "status": "New",
-   "incident_start": "2026-06-10",
+   "name": "Straight-line winds and Severe Storms",
+   "incident_start": "2026-08-09",
    "incident_end": "2026-10-15",
-   "sep_start": "2026-06-10",
+   "sep_start": "2026-08-09",
    "sep_end": "2026-11-30",
    "areas": [
-    "Marshall"
+    "Champaign",
+    "Cook",
+    "DuPage",
+    "LaSalle",
+    "Will"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Severe Storms, Tornadoes, Heavy Rainfall, and Straight-line Winds",
-   "status": "New",
+   "name": "Extensive Rainfall",
+   "incident_start": "2026-08-13",
+   "incident_end": "2026-10-15",
+   "sep_start": "2026-08-13",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Champaign",
+    "Ford",
+    "Fulton",
+    "McLean",
+    "Tazewell",
+    "Vermilion"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "IL",
+   "type": "State",
+   "name": "Severe Storms, Tornadoes, heavy rainfall, and straight-line winds",
    "incident_start": "2026-08-09",
    "incident_end": "2026-11-12",
    "sep_start": "2026-08-09",
@@ -1691,18 +1772,16 @@
     "LaSalle",
     "McLean",
     "Tazewell",
-    "Vermilion",
-    "Will"
+    "Vermilion & Will"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IL",
    "type": "State",
-   "name": "Tornadoes, Heavy Rainfall, and Flash Flooding",
-   "status": "New",
+   "name": "Tornadoes, Heavy rainfall and Flash Flooding",
    "incident_start": "2026-08-11",
    "incident_end": "2026-12-10",
    "sep_start": "2026-08-11",
@@ -1710,15 +1789,14 @@
    "areas": [
     "Cook"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IN",
    "type": "State",
    "name": "Flooding, Severe Weather",
-   "status": "New",
    "incident_start": "2026-08-11",
    "incident_end": "2026-10-10",
    "sep_start": "2026-08-11",
@@ -1726,15 +1804,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "IN",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
    "incident_start": "2026-08-11",
    "incident_end": "2026-10-24",
    "sep_start": "2026-08-11",
@@ -1762,15 +1839,120 @@
     "Union",
     "Wayne"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "IN",
+   "type": "FEMA",
+   "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
+   "incident_start": "2026-08-11",
+   "incident_end": "2026-10-24",
+   "sep_start": "2026-08-11",
+   "sep_end": "2027-10-31",
+   "areas": [
+    "Allen",
+    "Bartholomew",
+    "Boone",
+    "Carroll",
+    "Cass",
+    "Clinton",
+    "Dearborn",
+    "Decatur",
+    "Delaware",
+    "Fayette",
+    "Fountain",
+    "Franklin",
+    "Fulton",
+    "Grant",
+    "Hamilton",
+    "Hancock",
+    "Harrison",
+    "Hendricks",
+    "Henry",
+    "Jasper",
+    "Jay",
+    "Jefferson",
+    "Jennings",
+    "Knox",
+    "Kosciusko",
+    "Lake",
+    "LaPorte",
+    "Madison",
+    "Marion",
+    "Marshall",
+    "Miami",
+    "Morgan",
+    "Newton",
+    "Orange",
+    "Owen",
+    "Parke",
+    "Perry",
+    "Pike",
+    "Porter",
+    "Pulaski",
+    "Randolph",
+    "Ripley",
+    "Rush",
+    "Shelby",
+    "St. Joseph",
+    "Starke",
+    "Tipton",
+    "Union",
+    "Wabash",
+    "Warren",
+    "Washington",
+    "Wayne",
+    "White"
+   ],
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-08-24",
+   "possible_sep_end": "2026-10-31"
+  },
+  {
+   "state": "IN",
+   "type": "FEMA",
+   "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
+   "incident_start": "2026-08-11",
+   "incident_end": "2026-10-24",
+   "sep_start": "2026-08-11",
+   "sep_end": "2027-10-31",
+   "areas": [
+    "Carroll",
+    "Dearborn",
+    "Decatur",
+    "Delaware",
+    "Fayette",
+    "Franklin",
+    "Hamilton",
+    "Hancock",
+    "Henry",
+    "LaPorte",
+    "Lake",
+    "Madison",
+    "Marion",
+    "Morgan",
+    "Porter",
+    "Pulaski",
+    "Randolph",
+    "Rush",
+    "Tipton",
+    "Union",
+    "Wayne"
+   ],
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-08-24",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "KS",
    "type": "State",
-   "name": "Severe Storms, Large Hail, Damaging Winds, and Heavy Rainfall",
-   "status": "New",
+   "name": "Severe Storms, Large hail, damaging winds and heavy rainfall",
    "incident_start": "2026-08-18",
    "incident_end": "2026-10-02",
    "sep_start": "2026-08-18",
@@ -1778,15 +1960,14 @@
    "areas": [
     "Wyandotte"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "KS",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
    "incident_start": "2026-06-04",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-04",
@@ -1822,19 +2003,19 @@
     "Stafford",
     "Wabaunsee",
     "Washington",
-    "The Iowa Tribe of Kansas and Nebraska",
+    "The Iowa Tribe of Kansas",
+    "Nebraska",
     "Kickapoo Tribe in Kansas"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": "Same email lists a second KS FEMA declaration with the identical name (different dates/counties); kept both; 2 separate entries with this state/type/name appear in the 2026-09-08 email; each kept as its own record"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "KS",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
-   "incident_start": "2026-06-18",
+   "incident_start": "2026-06-04",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-18",
    "sep_end": "2026-11-30",
@@ -1861,31 +2042,29 @@
     "Thomas",
     "Wallace"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": "Same email lists a second KS FEMA declaration with the identical name (different dates/counties); kept both; 2 separate entries with this state/type/name appear in the 2026-09-08 email; each kept as its own record"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "KS",
    "type": "State",
    "name": "Severe Storms and Flooding",
-   "status": "New",
    "incident_start": "2026-10-01",
    "incident_end": "2026-11-13",
    "sep_start": "2026-10-01",
    "sep_end": "2026-12-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "KY",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Flooding, Landslides, and Mudslides",
-   "status": "New",
    "incident_start": "2026-06-26",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-26",
@@ -1912,15 +2091,14 @@
     "Spencer",
     "Wayne"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "LA",
    "type": "State",
    "name": "Tropical Storm Bertha",
-   "status": "New",
    "incident_start": "2026-07-22",
    "incident_end": "2026-09-03",
    "sep_start": "2026-07-22",
@@ -1928,15 +2106,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "LA",
    "type": "State",
    "name": "Tropical Storm Arthur",
-   "status": "Renewed (adds county)",
    "incident_start": "2026-06-17",
    "incident_end": "2026-10-04",
    "sep_start": "2026-06-17",
@@ -1950,34 +2127,31 @@
     "St. Landry",
     "St. Tammany",
     "Terrebonne",
-    "Winn",
-    "Rapides"
+    "Winn"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": "Louisiana parishes listed as 'Counties' in source; areas unioned with prior version from 2026-07-27"
+   "status": "Renewed",
+   "note": "8/6/26 Renewal - Dates changed from 6/17/2026 - 10/31/2026 to 6/17/2026 - 11/30/2026 Removes Rapides. Adds East Feliciana",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "LA",
    "type": "State",
    "name": "Hurricane Ida",
-   "status": "Renewed",
    "incident_start": "2021-08-26",
    "incident_end": "2026-11-22",
    "sep_start": "2021-08-26",
    "sep_end": "2026-12-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-12",
-   "note": null
+   "status": "Renewed",
+   "note": "8/28/26: Renewal: Dates changed from 8/26/2021 - 10/31/2026 to 8/26/2021 - 11/30/2026\n9/25/26: Renewal: Dates changed 8/26/2021 - 11/30/2026 to 8/26/2021 - 12/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MI",
    "type": "State",
-   "name": "Significant Rain Event",
-   "status": "New",
+   "name": "Significant rain event",
    "incident_start": "2026-06-29",
    "incident_end": "2026-09-04",
    "sep_start": "2026-06-29",
@@ -1987,15 +2161,14 @@
     "Cheboygan",
     "Emmet"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MN",
    "type": "State",
    "name": "Wildfires",
-   "status": "New",
    "incident_start": "2026-07-11",
    "incident_end": "2026-09-09",
    "sep_start": "2026-07-11",
@@ -2003,15 +2176,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MN",
-   "type": "FEMA",
+   "type": "State",
    "name": "Severe Storms and Straight-line Winds",
-   "status": "New (Declaration #860)",
    "incident_start": "2025-06-21",
    "incident_end": "2026-10-21",
    "sep_start": "2025-06-21",
@@ -2019,15 +2191,29 @@
    "areas": [
     "Leech Lake Band of Ojibwe Tribe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2025-10-27",
-   "note": "area is a tribe, not a county"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "MO",
+   "type": "State",
+   "name": "Straight-line winds, Tornadoes and Flooding",
+   "incident_start": "2026-07-09",
+   "incident_end": "2026-09-08",
+   "sep_start": "2026-07-09",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MO",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
    "incident_start": "2026-06-04",
    "incident_end": "2026-09-01",
    "sep_start": "2026-06-04",
@@ -2068,31 +2254,14 @@
     "Webster",
     "Worth"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
-  },
-  {
-   "state": "MO",
-   "type": "State",
-   "name": "Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
-   "incident_start": "2026-07-09",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MO",
    "type": "FEMA",
-   "name": "Severe Storms, Straight-Line Winds, and Flooding",
-   "status": "New",
+   "name": "Severe Storms, Straight-line Winds, and Flooding",
    "incident_start": "2026-07-09",
    "incident_end": "2026-09-30",
    "sep_start": "2026-07-09",
@@ -2108,15 +2277,14 @@
     "Washington",
     "Wayne"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MP",
    "type": "FEMA",
    "name": "Super Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-04",
    "incident_end": "2026-09-01",
    "sep_start": "2026-07-04",
@@ -2126,47 +2294,29 @@
     "Saipan",
     "Tinian"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "Listed as 'Rota, Saipan, and Tinian Municipalities'"
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MP",
-   "type": "State",
+   "type": "PHE",
    "name": "Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-02",
    "incident_end": "2026-11-04",
    "sep_start": "2026-07-02",
    "sep_end": "2026-12-31",
    "areas": [
-    "Commonwealth of Northern Mariana Islands"
+    "Commonwealth of the Northern Mariana Islands"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
-  },
-  {
-   "state": "MP",
-   "type": "State",
-   "name": "Typhoon Sinlaku",
-   "status": "Renewed",
-   "incident_start": "2026-04-11",
-   "incident_end": "2026-11-05",
-   "sep_start": "2026-04-11",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "Commonwealth of Northern Mariana Islands"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MP",
    "type": "PHE",
    "name": "Typhoon Sinlaku",
-   "status": "Renewed",
    "incident_start": "2026-04-11",
    "incident_end": "2027-02-02",
    "sep_start": "2026-04-11",
@@ -2174,17 +2324,16 @@
    "areas": [
     "Commonwealth of the Northern Mariana Islands"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": "Incident end date printed malformed as '02/022027'; interpreted as 02/02/2027"
+   "status": "Renewed",
+   "note": "10/7/26: Renewal: Date changed from 4/11/2026 - 12/31/2026 to 4/11/2026 - 3/21/2027",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MP",
    "type": "FEMA",
    "name": "Typhoon Bavi",
-   "status": "New",
    "incident_start": "2026-07-02",
-   "incident_end": "2027-07-02",
+   "incident_end": "2026-11-04",
    "sep_start": "2026-07-02",
    "sep_end": "2027-09-30",
    "areas": [
@@ -2193,17 +2342,16 @@
     "Saipan",
     "Tinian"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": "Listed as 'Northern Islands, Rota, Saipan, Tinian Municipalities'"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MS",
    "type": "FEMA",
-   "name": "Tropical Storm Arhur",
-   "status": "Amended (adds county)",
+   "name": "Tropical Storm Arthur",
    "incident_start": "2026-06-18",
-   "incident_end": "2026-10-07",
+   "incident_end": null,
    "sep_start": "2026-06-18",
    "sep_end": "2026-11-30",
    "areas": [
@@ -2213,15 +2361,31 @@
     "Perry",
     "Stone"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-14",
-   "note": "Name as listed 'Arhur' (likely typo for Arthur); Name printed \"Tropical Storm Arhur\" in the 2026-09-14 amendment; merged with \"Tropical Storm Arthur\"."
+   "status": "Amended",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "MT",
+   "type": "FEMA/FMAG",
+   "name": "Windy Rock Fire",
+   "incident_start": "2025-08-14",
+   "incident_end": null,
+   "sep_start": "2025-08-14",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Powell"
+   ],
+   "status": "Expiring",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5611-MT) has since closed the incident on Sep 19, 2025. Under CMS rules the SEP may have already ended (as early as Nov 30, 2025). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2025-09-19",
+   "possible_sep_end": "2025-11-30"
   },
   {
    "state": "MT",
    "type": "State",
    "name": "Flooding",
-   "status": "New",
    "incident_start": "2026-07-03",
    "incident_end": "2026-10-17",
    "sep_start": "2026-07-03",
@@ -2229,15 +2393,33 @@
    "areas": [
     "Valley"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "MT",
    "type": "FEMA",
+   "name": "Severe Storms and Flooding",
+   "incident_start": "2025-12-10",
+   "incident_end": null,
+   "sep_start": "2025-12-10",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Lincoln",
+    "Sanders",
+    "Blackfeet Tribe"
+   ],
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3630-MT) has since closed the incident on Dec 11, 2025. Under CMS rules the SEP may have already ended (as early as Feb 28, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2025-12-11",
+   "possible_sep_end": "2026-02-28"
+  },
+  {
+   "state": "MT",
+   "type": "FEMA/FMAG",
    "name": "Sand Creek Fire",
-   "status": "New",
    "incident_start": "2026-08-14",
    "incident_end": "2027-08-13",
    "sep_start": "2026-08-14",
@@ -2245,15 +2427,14 @@
    "areas": [
     "Beaverhead"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ND",
    "type": "State",
    "name": "Severe Thunderstorms",
-   "status": "New",
    "incident_start": "2026-06-07",
    "incident_end": "2026-09-18",
    "sep_start": "2026-06-07",
@@ -2261,31 +2442,29 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-06",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ND",
    "type": "State",
    "name": "Extreme Drought",
-   "status": "Renewed",
    "incident_start": "2026-08-06",
    "incident_end": "2026-10-25",
    "sep_start": "2026-08-06",
    "sep_end": "2026-11-30",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Renewed",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ND",
    "type": "FEMA",
-   "name": "Severe Storms, Straight-Line Winds, and Tornadoes",
-   "status": "New",
+   "name": "Severe Storms, Straight-line Winds, and Tornadoes",
    "incident_start": "2026-06-07",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-07",
@@ -2299,15 +2478,14 @@
     "Oliver",
     "Williams"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "ND",
    "type": "State",
    "name": "Drought Conditions",
-   "status": "New",
    "incident_start": "2026-08-04",
    "incident_end": "2026-12-30",
    "sep_start": "2026-08-04",
@@ -2315,15 +2493,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
    "type": "State",
    "name": "Log Road Fire",
-   "status": "New",
    "incident_start": "2026-06-09",
    "incident_end": "2026-09-26",
    "sep_start": "2026-06-09",
@@ -2331,15 +2508,44 @@
    "areas": [
     "Sioux"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-06",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NE",
+   "type": "State",
+   "name": "Severe Thunderstorms",
+   "incident_start": "2026-06-08",
+   "incident_end": "2026-09-26",
+   "sep_start": "2026-06-08",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Morril"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NE",
+   "type": "State",
+   "name": "Wildfire",
+   "incident_start": "2026-06-09",
+   "incident_end": null,
+   "sep_start": "2026-06-09",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Sioux"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "New",
    "incident_start": "2026-05-15",
    "incident_end": "2026-09-01",
    "sep_start": "2026-05-15",
@@ -2354,47 +2560,14 @@
     "Thayer",
     "Thurston"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "Subject line abbreviates Nebraska as 'NB'"
-  },
-  {
-   "state": "NE",
-   "type": "State",
-   "name": "Severe Thunderstorms",
-   "status": "New",
-   "incident_start": "2026-06-08",
-   "incident_end": "2026-09-26",
-   "sep_start": "2026-06-08",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Morril"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": "'Morril' as listed (Nebraska county is Morrill)"
-  },
-  {
-   "state": "NE",
-   "type": "State",
-   "name": "Wildfires",
-   "status": "New",
-   "incident_start": "2026-06-09",
-   "incident_end": "2026-09-06",
-   "sep_start": "2026-06-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Sioux"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-22",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
    "type": "State",
    "name": "Corkscrew Road Fire",
-   "status": "New",
    "incident_start": "2026-07-10",
    "incident_end": "2026-10-10",
    "sep_start": "2026-07-10",
@@ -2402,31 +2575,14 @@
    "areas": [
     "Sioux"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
    "type": "State",
-   "name": "Heavy Rain and Severe Flooding",
-   "status": "New",
-   "incident_start": "2026-09-30",
-   "incident_end": "2026-10-30",
-   "sep_start": "2026-09-30",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "Lancaster"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
-  },
-  {
-   "state": "NE",
-   "type": "FEMA",
    "name": "Severe Storm and High Winds",
-   "status": "New",
    "incident_start": "2026-09-09",
    "incident_end": "2026-11-20",
    "sep_start": "2026-09-09",
@@ -2434,15 +2590,29 @@
    "areas": [
     "Knox"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NE",
+   "type": "State",
+   "name": "Heavy Rain and Severe Flooding",
+   "incident_start": "2026-09-30",
+   "incident_end": "2026-10-30",
+   "sep_start": "2026-09-30",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "Lancaster"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
    "type": "State",
    "name": "Cottonwood Fire",
-   "status": "New",
    "incident_start": "2026-03-12",
    "incident_end": "2027-04-10",
    "sep_start": "2026-03-12",
@@ -2452,21 +2622,21 @@
     "Dawson",
     "Frontier",
     "Garden",
+    "Grant",
     "Keith",
     "Lincoln",
     "Morrill"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NE",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Morrill-Cottonwood Fire",
-   "status": "New",
    "incident_start": "2026-03-12",
-   "incident_end": "2027-03-12",
+   "incident_end": null,
    "sep_start": "2026-03-12",
    "sep_end": "2027-05-31",
    "areas": [
@@ -2477,28 +2647,27 @@
     "Lincoln",
     "Morrill"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4920-NE, FM-5623-NE) has since closed the incident on Apr 2, 2026. Under CMS rules the SEP may have already ended (as early as Jun 30, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4920-NE, FM-5623-NE) has since closed the incident on Apr 2, 2026. Under CMS rules the SEP may have already ended (as early as Jun 30, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-04-02",
    "possible_sep_end": "2026-06-30"
   },
   {
    "state": "NE",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "South Fork Fire",
-   "status": "New",
    "incident_start": "2026-06-09",
-   "incident_end": "2027-06-09",
+   "incident_end": null,
    "sep_start": "2026-06-09",
    "sep_end": "2027-08-31",
    "areas": [
     "Sioux",
     "Dawes"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-15",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5637-NE) has since closed the incident on Jun 21, 2026. Under CMS rules the SEP may have already ended (as early as Aug 31, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5637-NE) has since closed the incident on Jun 21, 2026. Under CMS rules the SEP may have already ended (as early as Aug 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-06-21",
    "possible_sep_end": "2026-08-31"
   },
@@ -2506,7 +2675,6 @@
    "state": "NH",
    "type": "FEMA",
    "name": "Severe Storms and Flooding",
-   "status": "New",
    "incident_start": "2026-06-10",
    "incident_end": "2026-11-05",
    "sep_start": "2026-06-10",
@@ -2514,15 +2682,14 @@
    "areas": [
     "Carroll"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NJ",
    "type": "State",
-   "name": "Severe Storm, Heavy Rainfall, and High Winds",
-   "status": "New",
+   "name": "Severe Storm, Heavy Rainfall and High Winds",
    "incident_start": "2026-09-25",
    "incident_end": "2026-10-28",
    "sep_start": "2026-09-25",
@@ -2537,17 +2704,16 @@
     "Ocean",
     "Salem"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": "Same email lists a second NJ State declaration with the identical name but different dates/counties; kept both; 2 separate entries with this state/type/name appear in the 2026-10-06 email; each kept as its own record"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NJ",
    "type": "State",
-   "name": "Severe Storm, Heavy Rainfall, and High Winds",
-   "status": "New",
+   "name": "Severe Storm, Heavy Rainfall and High Winds",
    "incident_start": "2026-09-25",
-   "incident_end": "2026-11-22",
+   "incident_end": "2026-10-28",
    "sep_start": "2026-09-25",
    "sep_end": "2026-12-31",
    "areas": [
@@ -2558,15 +2724,29 @@
     "Monmouth",
     "Ocean"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": "Same email lists a second NJ State declaration with the identical name but different dates/counties; kept both; 2 separate entries with this state/type/name appear in the 2026-10-06 email; each kept as its own record"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NM",
+   "type": "State",
+   "name": "Flooding",
+   "incident_start": "2026-09-29",
+   "incident_end": "2026-11-26",
+   "sep_start": "2026-07-22",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NM",
    "type": "State",
    "name": "Frijoles Fire",
-   "status": "New",
    "incident_start": "2026-08-04",
    "incident_end": "2026-10-08",
    "sep_start": "2026-08-04",
@@ -2575,31 +2755,29 @@
     "Rio Arriba",
     "Santa Fe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NM",
    "type": "State",
    "name": "Flooding",
-   "status": "New",
    "incident_start": "2026-09-29",
    "incident_end": "2026-11-26",
    "sep_start": "2026-09-29",
    "sep_end": "2026-12-31",
    "areas": [
-    "Entire State"
+    "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NM",
-   "type": "FEMA",
+   "type": "State",
    "name": "Severe Storms and Flooding",
-   "status": "New",
    "incident_start": "2026-07-16",
    "incident_end": "2026-11-05",
    "sep_start": "2026-07-16",
@@ -2607,15 +2785,29 @@
    "areas": [
     "Pueblo of Zuni"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NV",
+   "type": "State",
+   "name": "Peavine Fire",
+   "incident_start": "2025-08-02",
+   "incident_end": null,
+   "sep_start": "2025-08-02",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Washoe"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NV",
    "type": "State",
    "name": "Bug Fire",
-   "status": "New",
    "incident_start": "2026-08-08",
    "incident_end": "2026-09-15",
    "sep_start": "2026-08-08",
@@ -2624,15 +2816,14 @@
     "Washoe",
     "Reno-Sparks Indian Colony"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NV",
    "type": "State",
    "name": "Fred Mountain Fire",
-   "status": "New",
    "incident_start": "2026-08-09",
    "incident_end": "2026-09-15",
    "sep_start": "2026-08-09",
@@ -2641,15 +2832,14 @@
     "Washoe",
     "Reno-Sparks Indian Colony"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NV",
    "type": "State",
    "name": "Hawk Fire",
-   "status": "New",
    "incident_start": "2026-08-22",
    "incident_end": "2026-09-27",
    "sep_start": "2026-08-22",
@@ -2657,77 +2847,71 @@
    "areas": [
     "Washoe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
-  },
-  {
-   "state": "NV",
-   "type": "FEMA/FMAG",
-   "name": "Hawk Fire",
-   "status": "Amended",
-   "incident_start": "2026-08-22",
-   "incident_end": "2026-10-13",
-   "sep_start": "2026-08-22",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "Washoe"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": "Amended version shortens dates vs 09/08 email (was incident end 08/31/2027, SEP end 11/30/2027)"
-  },
-  {
-   "state": "NV",
-   "type": "FEMA/FMAG",
-   "name": "Bug Fire",
-   "status": "New",
-   "incident_start": "2026-08-08",
-   "incident_end": "2027-08-07",
-   "sep_start": "2026-08-08",
-   "sep_end": "2027-10-31",
-   "areas": [
-    "Washoe"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5663-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-08-17",
-   "possible_sep_end": "2026-10-31"
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NV",
    "type": "FEMA/FMAG",
    "name": "Fred Mountain Fire",
-   "status": "New",
    "incident_start": "2026-08-09",
-   "incident_end": "2027-08-10",
+   "incident_end": "2026-09-15",
    "sep_start": "2026-08-09",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Washoe"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NV",
+   "type": "FEMA/FMAG",
+   "name": "Hawk Fire",
+   "incident_start": "2026-08-22",
+   "incident_end": "2026-09-27",
+   "sep_start": "2026-08-22",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "Washoe"
+   ],
+   "status": "Amended",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NV",
+   "type": "FEMA/FMAG",
+   "name": "Stallion Fire",
+   "incident_start": "2026-08-10",
+   "incident_end": null,
+   "sep_start": "2026-08-10",
    "sep_end": "2027-10-31",
    "areas": [
     "Washoe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5667-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5668-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-17",
    "possible_sep_end": "2026-10-31"
   },
   {
    "state": "NV",
    "type": "FEMA/FMAG",
-   "name": "Stallion Fire",
-   "status": "New",
-   "incident_start": "2026-08-10",
-   "incident_end": "2027-08-10",
-   "sep_start": "2026-08-10",
+   "name": "Bug Fire",
+   "incident_start": "2026-08-08",
+   "incident_end": "2026-09-15",
+   "sep_start": "2026-08-08",
    "sep_end": "2027-10-31",
    "areas": [
     "Washoe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5668-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5663-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-17",
    "possible_sep_end": "2026-10-31"
   },
@@ -2735,7 +2919,6 @@
    "state": "NV",
    "type": "FEMA/FMAG",
    "name": "Bull Fire",
-   "status": "New",
    "incident_start": "2026-10-02",
    "incident_end": "2027-10-01",
    "sep_start": "2026-10-02",
@@ -2743,15 +2926,14 @@
    "areas": [
     "Washoe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "NY",
    "type": "State",
-   "name": "Heavy Rain, High Winds, and Coastal Flooding",
-   "status": "New",
+   "name": "Heavy Rain, High Winds and Coastal Flooding",
    "incident_start": "2026-09-25",
    "incident_end": "2026-11-23",
    "sep_start": "2026-09-25",
@@ -2767,15 +2949,29 @@
     "Westchester",
     "contiguous"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-06",
-   "note": "Source says 'Westchester and contiguous Counties' (contiguous counties not named)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NY",
+   "type": "State",
+   "name": "Measles Outbreak",
+   "incident_start": "2026-10-03",
+   "incident_end": null,
+   "sep_start": "2026-10-03",
+   "sep_end": "2027-01-31",
+   "areas": [
+    "All"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OH",
    "type": "State",
-   "name": "Severe Flooding and Severe Weather",
-   "status": "Amended (county added)",
+   "name": "Severe Flooding and Severe weather",
    "incident_start": "2026-08-10",
    "incident_end": "2026-10-11",
    "sep_start": "2026-08-10",
@@ -2786,15 +2982,14 @@
     "Muskingum",
     "Perry"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Amended",
+   "note": "8/14/26: Amendmen: thttps://content.govdelivery.com/attachments/OHIOGOVERNOR/2026/08/11/file_attachments/3743268/Flood%20Proclamation%20-%20Ohio.pdf\nAdded Franklin County . Date changed from 8/10/2026 -1/31/2027 to 8/10/2026 -11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OH",
    "type": "State",
-   "name": "Severe Storms, Heavy Rainfall, and Strong Winds",
-   "status": "New",
+   "name": "Severe storms, Heavy rainfall and Strong Winds",
    "incident_start": "2026-07-05",
    "incident_end": "2026-11-02",
    "sep_start": "2026-07-05",
@@ -2802,15 +2997,14 @@
    "areas": [
     "Mahoning"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OH",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, Flooding, and Landslides",
-   "status": "New",
    "incident_start": "2026-08-10",
    "incident_end": "2026-10-31",
    "sep_start": "2026-08-10",
@@ -2824,32 +3018,14 @@
     "Muskingum",
     "Perry"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
-  },
-  {
-   "state": "OH",
-   "type": "State",
-   "name": "Severe Flooding",
-   "status": "New",
-   "incident_start": "2026-08-10",
-   "incident_end": "2026-12-07",
-   "sep_start": "2026-08-10",
-   "sep_end": "2027-01-31",
-   "areas": [
-    "Perry",
-    "Muskingum"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OH",
    "type": "State",
    "name": "Severe Storms and Heavy Rainfall",
-   "status": "New",
    "incident_start": "2026-09-09",
    "incident_end": "2027-01-18",
    "sep_start": "2026-09-09",
@@ -2876,15 +3052,14 @@
     "Van Wert",
     "Vinton"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OK",
    "type": "State",
-   "name": "Dangerous Severe Weather, High Winds, and Flooding",
-   "status": "New",
+   "name": "Dangerous severe weather, high winds, and flooding",
    "incident_start": "2026-07-04",
    "incident_end": "2026-09-01",
    "sep_start": "2026-07-04",
@@ -2893,142 +3068,31 @@
     "Cleveland",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OK",
-   "type": "FEMA",
-   "name": "Sunny Fire",
-   "status": "New (Declaration #872)",
-   "incident_start": "2025-12-19",
-   "incident_end": "2026-12-18",
-   "sep_start": "2025-12-19",
-   "sep_end": "2027-02-28",
-   "areas": [
-    "Kiowa"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-01-12",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5615-OK) has since closed the incident on Dec 30, 2025. Under CMS rules the SEP may have already ended (as early as Feb 28, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2025-12-30",
-   "possible_sep_end": "2026-02-28"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
-   "name": "43 Fire",
-   "status": "New",
-   "incident_start": "2026-02-17",
-   "incident_end": "2027-02-16",
-   "sep_start": "2026-02-17",
-   "sep_end": "2027-04-30",
-   "areas": [
-    "Woodward"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-02-24",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-02-24",
-   "possible_sep_end": "2026-04-30"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
-   "name": "Hospital Road Fire",
-   "status": "New",
-   "incident_start": "2026-02-16",
-   "incident_end": "2027-02-15",
-   "sep_start": "2026-02-16",
-   "sep_end": "2027-04-30",
-   "areas": [
-    "Carter"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-03",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5620-OK) has since closed the incident on Feb 22, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-02-22",
-   "possible_sep_end": "2026-04-30"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
-   "name": "Ranger Road Fire",
-   "status": "New",
-   "incident_start": "2026-02-17",
-   "incident_end": "2027-02-16",
-   "sep_start": "2026-02-17",
-   "sep_end": "2027-04-30",
-   "areas": [
-    "Beaver"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-02-24",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-02-24",
-   "possible_sep_end": "2026-04-30"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
-   "name": "Rattlesnake Fire",
-   "status": "New",
-   "incident_start": "2026-02-19",
-   "incident_end": "2027-02-18",
-   "sep_start": "2026-02-19",
-   "sep_end": "2027-04-30",
-   "areas": [
-    "Osage",
-    "Washington"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-03",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5620-OK, FM-5621-OK) has since closed the incident on Feb 26, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-02-26",
-   "possible_sep_end": "2026-04-30"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
-   "name": "Stevens Fire",
-   "status": "New",
-   "incident_start": "2026-02-17",
-   "incident_end": "2027-02-16",
-   "sep_start": "2026-02-17",
-   "sep_end": "2027-04-30",
-   "areas": [
-    "Beaver"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-02-24",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5616-OK, FM-5617-OK, FM-5618-OK) has since closed the incident on Feb 24, 2026. Under CMS rules the SEP may have already ended (as early as Apr 30, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-02-24",
-   "possible_sep_end": "2026-04-30"
-  },
-  {
-   "state": "OK",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "1170 Road Fire",
-   "status": "New",
    "incident_start": "2026-03-15",
-   "incident_end": "2027-03-15",
+   "incident_end": null,
    "sep_start": "2026-03-15",
    "sep_end": "2027-05-31",
    "areas": [
     "Beckham"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5624-OK) has since closed the incident on Mar 16, 2026. Under CMS rules the SEP may have already ended (as early as May 31, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5624-OK) has since closed the incident on Mar 16, 2026. Under CMS rules the SEP may have already ended (as early as May 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-03-16",
    "possible_sep_end": "2026-05-31"
   },
   {
    "state": "OK",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Buckhorn Fire",
-   "status": "New",
    "incident_start": "2026-03-19",
    "incident_end": "2027-03-18",
    "sep_start": "2026-03-19",
@@ -3036,15 +3100,14 @@
    "areas": [
     "Murray"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OK",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Dibble Creek Fire",
-   "status": "New",
    "incident_start": "2026-03-22",
    "incident_end": "2027-03-31",
    "sep_start": "2026-03-22",
@@ -3052,15 +3115,14 @@
    "areas": [
     "McClain"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-02",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OK",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Jumping Juniper Fire",
-   "status": "New",
    "incident_start": "2026-03-22",
    "incident_end": "2027-03-31",
    "sep_start": "2026-03-22",
@@ -3068,26 +3130,25 @@
    "areas": [
     "Dewey"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-02",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OK",
    "type": "FEMA/FMAG",
    "name": "Train Trestle Fire",
-   "status": "New",
    "incident_start": "2026-08-13",
-   "incident_end": "2027-08-12",
+   "incident_end": null,
    "sep_start": "2026-08-13",
    "sep_end": "2027-10-31",
    "areas": [
     "Canadian",
     "Oklahoma"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5669-OK) has since closed the incident on Aug 16, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5669-OK) has since closed the incident on Aug 16, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-16",
    "possible_sep_end": "2026-10-31"
   },
@@ -3095,7 +3156,6 @@
    "state": "OK",
    "type": "FEMA",
    "name": "Severe Storms and Straight-line Winds",
-   "status": "New",
    "incident_start": "2026-07-04",
    "incident_end": "2027-10-06",
    "sep_start": "2026-07-04",
@@ -3106,32 +3166,78 @@
     "Osage",
     "Washington"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4950-OK) has since closed the incident on Jul 4, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-07-04",
+   "possible_sep_end": "2026-09-30"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "East Evans Creek Road Fire",
+   "incident_start": "2026-07-10",
+   "incident_end": "2026-09-07",
+   "sep_start": "2026-07-10",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Jackson"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Flat Fire",
+   "incident_start": "2025-08-21",
+   "incident_end": null,
+   "sep_start": "2025-08-21",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Deschutes",
+    "Jefferson"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Olive Butte Fire",
+   "incident_start": "2026-07-11",
+   "incident_end": "2026-09-08",
+   "sep_start": "2026-07-11",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Grant"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Akawa Butte and Brewer Fires",
-   "status": "New",
    "incident_start": "2026-07-18",
    "incident_end": "2026-09-16",
    "sep_start": "2026-07-18",
    "sep_end": "2026-10-31",
    "areas": [
     "Deschutes",
-    "Jefferson"
+    "Jelltrson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Bench and Beachcomb Fires",
-   "status": "New",
    "incident_start": "2026-07-25",
    "incident_end": "2026-09-22",
    "sep_start": "2026-07-25",
@@ -3139,15 +3245,14 @@
    "areas": [
     "Jefferson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Crosswhite West Fire",
-   "status": "New",
    "incident_start": "2026-07-24",
    "incident_end": "2026-09-21",
    "sep_start": "2026-07-24",
@@ -3156,47 +3261,14 @@
     "Crook",
     "Jefferson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "East Evans Creek Road Fire",
-   "status": "New",
-   "incident_start": "2026-07-10",
-   "incident_end": "2026-09-07",
-   "sep_start": "2026-07-10",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Jackson"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Grasshopper Fire",
-   "status": "New",
-   "incident_start": "2026-07-29",
-   "incident_end": "2026-09-25",
-   "sep_start": "2026-07-29",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Wasco"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Hagen Fire",
-   "status": "New",
    "incident_start": "2026-07-21",
    "incident_end": "2026-09-18",
    "sep_start": "2026-07-21",
@@ -3204,15 +3276,14 @@
    "areas": [
     "Umatilla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Lower Dry Creek Fire",
-   "status": "New",
    "incident_start": "2026-07-15",
    "incident_end": "2026-09-11",
    "sep_start": "2026-07-15",
@@ -3220,31 +3291,14 @@
    "areas": [
     "Umatilla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Olive Butte Fire",
-   "status": "New",
-   "incident_start": "2026-07-11",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-11",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Grant"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Rowe Creek Complex",
-   "status": "New",
    "incident_start": "2026-07-17",
    "incident_end": "2026-09-13",
    "sep_start": "2026-07-17",
@@ -3252,15 +3306,14 @@
    "areas": [
     "Wheeler"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Second Flat Fire",
-   "status": "New",
    "incident_start": "2026-07-26",
    "incident_end": "2026-09-22",
    "sep_start": "2026-07-26",
@@ -3268,15 +3321,14 @@
    "areas": [
     "Hareny"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": "'Hareny' as listed (likely Harney)"
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Shingle Fire",
-   "status": "New",
    "incident_start": "2026-07-25",
    "incident_end": "2026-09-21",
    "sep_start": "2026-07-25",
@@ -3285,15 +3337,29 @@
     "Grant",
     "Wheeler"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Grasshopper Fire",
+   "incident_start": "2026-07-29",
+   "incident_end": "2026-09-25",
+   "sep_start": "2026-07-29",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Wasco"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Wrights Spring Fire",
-   "status": "New",
    "incident_start": "2026-08-07",
    "incident_end": "2026-10-04",
    "sep_start": "2026-08-07",
@@ -3301,32 +3367,32 @@
    "areas": [
     "Klamath"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Drought Conditions",
+   "incident_start": "2026-04-28",
+   "incident_end": null,
+   "sep_start": "2026-04-28",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Coos",
+    "Klamath",
+    "Wheeler"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Drought Emergency",
-   "status": "New",
    "incident_start": "2026-09-03",
-   "incident_end": "2027-01-29",
-   "sep_start": "2026-09-03",
-   "sep_end": "2027-02-28",
-   "areas": [
-    "Hood River"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
-  },
-  {
-   "state": "OR",
-   "type": "FEMA",
-   "name": "Drought Emergency",
-   "status": "New",
-   "incident_start": "2026-03-13",
    "incident_end": "2027-01-29",
    "sep_start": "2026-03-13",
    "sep_end": "2027-02-28",
@@ -3335,15 +3401,66 @@
     "Deschutes",
     "Umatilla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-04-06",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Drought Emergency",
+   "incident_start": "2026-09-03",
+   "incident_end": "2027-01-29",
+   "sep_start": "2026-04-16",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Crook",
+    "Grant",
+    "Jackson",
+    "Jefferson",
+    "Morrow",
+    "Wallowa"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Drought Emergency",
+   "incident_start": "2026-09-03",
+   "incident_end": "2027-01-29",
+   "sep_start": "2026-06-09",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Josephine",
+    "Wasco"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "State",
+   "name": "Drought Emergency",
+   "incident_start": "2026-09-03",
+   "incident_end": "2027-01-29",
+   "sep_start": "2026-07-02",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Curry",
+    "Union"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "State",
    "name": "Severe Drought Conditions",
-   "status": "New",
    "incident_start": "2026-05-19",
    "incident_end": "2027-01-29",
    "sep_start": "2026-05-19",
@@ -3355,80 +3472,90 @@
     "Lake",
     "Malheur"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-22",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
-   "type": "FEMA",
+   "type": "State",
+   "name": "Drought Emergency",
+   "incident_start": "2026-09-03",
+   "incident_end": "2027-01-29",
+   "sep_start": "2026-09-03",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Hood River"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "FEMA/FMAG",
    "name": "Akawa Butte Fire",
-   "status": "New",
    "incident_start": "2026-07-18",
    "incident_end": "2027-07-21",
    "sep_start": "2026-07-18",
    "sep_end": "2027-09-30",
    "areas": [
     "Deschutes",
-    "Jefferson"
+    "Jelltrson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "FEMA/FMAG",
    "name": "Fox Fire",
-   "status": "New",
    "incident_start": "2026-07-23",
    "incident_end": "2027-07-29",
-   "sep_start": "2026-07-23",
+   "sep_start": "2027-07-23",
    "sep_end": "2027-09-30",
    "areas": [
     "Baker"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Grasshopper Fire",
-   "status": "New",
-   "incident_start": "2026-07-25",
-   "incident_end": "2027-07-24",
+   "incident_start": "2026-07-29",
+   "incident_end": "2026-09-25",
    "sep_start": "2026-07-25",
    "sep_end": "2027-09-30",
    "areas": [
     "Wasco"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Lower Dry Creek Fire",
-   "status": "New",
    "incident_start": "2026-07-15",
-   "incident_end": "2027-07-15",
+   "incident_end": "2026-09-11",
    "sep_start": "2026-07-15",
    "sep_end": "2027-09-30",
    "areas": [
     "Umatilla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "FEMA/FMAG",
    "name": "Rowe Creek Complex Fire",
-   "status": "New",
    "incident_start": "2026-07-15",
    "incident_end": "2027-07-29",
    "sep_start": "2026-07-15",
@@ -3437,15 +3564,14 @@
     "Crook",
     "Jefferson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "FEMA/FMAG",
    "name": "Fielder Mountain Fire",
-   "status": "New",
    "incident_start": "2026-08-13",
    "incident_end": "2027-08-12",
    "sep_start": "2026-08-13",
@@ -3454,48 +3580,45 @@
     "Jackson",
     "Josephine"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "OR",
+   "type": "FEMA/FMAG",
+   "name": "Wrights Spring Fire",
+   "incident_start": "2026-08-07",
+   "incident_end": "2026-10-04",
+   "sep_start": "2026-08-07",
+   "sep_end": "2027-10-31",
+   "areas": [
+    "Klamath"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
    "type": "FEMA/FMAG",
    "name": "Hagen Fire",
-   "status": "New",
    "incident_start": "2026-07-21",
-   "incident_end": "2027-08-08",
+   "incident_end": "2026-09-18",
    "sep_start": "2026-07-21",
    "sep_end": "2027-10-31",
    "areas": [
     "Umatilla",
     "Union"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
-  },
-  {
-   "state": "OR",
-   "type": "FEMA/FMAG",
-   "name": "Wrights Spring Fire",
-   "status": "New",
-   "incident_start": "2026-08-07",
-   "incident_end": "2027-08-08",
-   "sep_start": "2026-08-07",
-   "sep_end": "2027-10-31",
-   "areas": [
-    "Klamath"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "SD",
    "type": "FEMA",
-   "name": "Severe Storms, Straight-Line Winds, Tornadoes, and Flooding",
-   "status": "New",
+   "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
    "incident_start": "2026-06-28",
    "incident_end": "2026-09-30",
    "sep_start": "2026-06-28",
@@ -3508,35 +3631,32 @@
     "Hand",
     "Hughes",
     "Hyde",
-    "Stanley",
-    "Crow Creek Indian Reservation",
-    "Lower Brule Indian Reservation"
+    "Stanley . Crow Creek",
+    "Lower Brule reservations"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "SD",
    "type": "FEMA",
-   "name": "Severe Storms, Straight-Line Winds, and Flooding",
-   "status": "New",
+   "name": "Severe Storms, Straight-line Winds, and Flooding",
    "incident_start": "2026-07-02",
    "incident_end": "2026-09-30",
    "sep_start": "2026-07-02",
    "sep_end": "2026-11-30",
    "areas": [
-    "Oglala Sioux Tribe of the Pine Ridge Reservation"
+    "Oglala Sioux Tribe"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "SD",
    "type": "State",
    "name": "79 Fire",
-   "status": null,
    "incident_start": "2026-04-11",
    "incident_end": "2026-12-31",
    "sep_start": "2026-04-11",
@@ -3544,15 +3664,14 @@
    "areas": [
     "Custer"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-05-04",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "SD",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Qury Fire",
-   "status": "New",
    "incident_start": "2026-03-12",
    "incident_end": "2027-03-12",
    "sep_start": "2026-03-12",
@@ -3560,33 +3679,14 @@
    "areas": [
     "Custer"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": "Name printed \"Qury Fire\" (likely typo)"
-  },
-  {
-   "state": "TN",
-   "type": "FEMA",
-   "name": "Severe Winter Storm",
-   "status": "New (Declaration #903)",
-   "incident_start": "2026-01-22",
-   "incident_end": "2027-01-23",
-   "sep_start": "2026-01-22",
-   "sep_end": "2027-03-31",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-02-03",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4898-TN, EM-3635-TN) has since closed the incident on Jan 27, 2026. Under CMS rules the SEP may have already ended (as early as Mar 31, 2026). Confirm with the carrier before using it.",
-   "fema_incident_end": "2026-01-27",
-   "possible_sep_end": "2026-03-31"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
    "type": "State",
    "name": "Drought",
-   "status": "Renewed",
    "incident_start": "2022-07-08",
    "incident_end": "2026-10-12",
    "sep_start": "2022-07-08",
@@ -3654,15 +3754,14 @@
     "Willacy",
     "Williamson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Renewed",
+   "note": "8/15/26 Renewal: Date changed from 7/8/2022 - 9/30/2026 to 7/8/2022 - 11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
    "type": "State",
    "name": "Heavy Rainfall and Flash Flooding",
-   "status": "Renewed",
    "incident_start": "2026-07-13",
    "incident_end": "2026-10-10",
    "sep_start": "2026-07-13",
@@ -3731,17 +3830,16 @@
     "Zapata",
     "Zavala"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Renewed",
+   "note": "8/13/26: Renewal: Date changed from 7/13/2026 - 10/31/2026 to 7/13/2026 - 11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
    "type": "State",
-   "name": "Hill County Heavy Rainfall and Flooding",
-   "status": "Renewed",
+   "name": "Hill Country Heavy Rainfall and Flooding",
    "incident_start": "2025-07-02",
-   "incident_end": "2026-10-12",
+   "incident_end": null,
    "sep_start": "2025-07-02",
    "sep_end": "2026-11-30",
    "areas": [
@@ -3776,15 +3874,98 @@
     "Uvalde",
     "Williamson"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": "Name as listed 'Hill County' (likely 'Hill Country')"
+   "status": "Renewed",
+   "note": "8/15/26 Renewal: Date changed from 7/2/2025 - 9/30/2026 to 7/2/2025 - 11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "TX",
+   "type": "State",
+   "name": "Border Crisis",
+   "incident_start": "2021-05-31",
+   "incident_end": null,
+   "sep_start": "2021-05-31",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "Aransas",
+    "Atascosa",
+    "Bee",
+    "Brewster",
+    "Brooks",
+    "Caldwell",
+    "Calhoun",
+    "Cameron",
+    "Chambers",
+    "Coleman",
+    "Colorado",
+    "Crane",
+    "Crockett",
+    "Culberson",
+    "DeWitt",
+    "Dimmit",
+    "Duval",
+    "Edwards",
+    "El Paso",
+    "Frio",
+    "Galveston",
+    "Goliad",
+    "Gonzales",
+    "Hidalgo",
+    "Hudspeth",
+    "Jackson",
+    "Jeff Davis",
+    "Jim Hogg",
+    "Jim Wells",
+    "Karnes",
+    "Kenedy",
+    "Kerr",
+    "Kimble",
+    "Kinney",
+    "Kleberg",
+    "La Salle",
+    "Lavaca",
+    "Live Oak",
+    "Mason",
+    "Matagorda",
+    "Maverick",
+    "McCulloch",
+    "McLennan",
+    "McMullen",
+    "Medina",
+    "Menard",
+    "Midland",
+    "Pecos",
+    "Presidio",
+    "Real",
+    "Refugio",
+    "San Jacinto",
+    "San Patricio",
+    "Schleicher",
+    "Shackelford",
+    "Starr",
+    "Sutton",
+    "Terrell",
+    "Throckmorton",
+    "Upton",
+    "Uvalde",
+    "Val Verde",
+    "Victoria",
+    "Webb",
+    "Wharton",
+    "Wilbarger",
+    "Willacy",
+    "Wilson",
+    "Zapata",
+    "Zavala"
+   ],
+   "status": "Renewed",
+   "note": "8/15/26 Renewal: Date changed from 5/31/2021 - 9/30/2026 to 5/31/2021 - 11/30/2026\n9/14/26: Renewal: 5/31/2021 - 11/30/2026 to 5/31/2021 - 12/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
    "type": "State",
    "name": "Fire Weather Conditions",
-   "status": "Renewed",
    "incident_start": "2025-08-10",
    "incident_end": "2026-10-30",
    "sep_start": "2025-08-10",
@@ -4003,15 +4184,14 @@
     "Zapata",
     "Zavala"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Renewed",
+   "note": "7/4/26: Renewal: Date changed from 8/10/2025 - 8/31/2026 to 8/10/2025 - 10/31/2026\n9/2/26: Renewal: Date changed from 8/10/2025 - 10/31/2026 to 8/10/2025 - 12/31/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Corner Pocket Fire",
-   "status": "New",
    "incident_start": "2026-03-15",
    "incident_end": "2027-03-15",
    "sep_start": "2026-03-15",
@@ -4019,35 +4199,50 @@
    "areas": [
     "Donley"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-03-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "TX",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Hunggate Fire",
-   "status": "New",
    "incident_start": "2026-05-14",
-   "incident_end": "2027-05-13",
+   "incident_end": null,
    "sep_start": "2026-05-14",
    "sep_end": "2027-07-31",
    "areas": [
     "Randall"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-05-18",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5633-TX) has since closed the incident on May 19, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5633-TX) has since closed the incident on May 19, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-05-19",
+   "possible_sep_end": "2026-07-31"
+  },
+  {
+   "state": "TX",
+   "type": "FEMA/FMAG",
+   "name": "Stinky Fire",
+   "incident_start": "2026-05-18",
+   "incident_end": null,
+   "sep_start": "2026-05-18",
+   "sep_end": "2027-07-31",
+   "areas": [
+    "Potter"
+   ],
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5634-TX) has since closed the incident on May 21, 2026. Under CMS rules the SEP may have already ended (as early as Jul 31, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-05-21",
    "possible_sep_end": "2026-07-31"
   },
   {
    "state": "TX",
    "type": "FEMA",
    "name": "Flooding",
-   "status": "New",
    "incident_start": "2026-07-12",
-   "incident_end": "2027-07-11",
+   "incident_end": null,
    "sep_start": "2026-07-12",
    "sep_end": "2027-09-30",
    "areas": [
@@ -4085,9 +4280,9 @@
     "Wilson",
     "Zavala"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": "'Jim Wills' as listed (likely Jim Wells) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-04",
    "possible_sep_end": "2026-10-31"
   },
@@ -4095,17 +4290,16 @@
    "state": "TX",
    "type": "FEMA/FMAG",
    "name": "Ross Fire",
-   "status": "New",
    "incident_start": "2026-08-24",
-   "incident_end": "2027-08-23",
+   "incident_end": null,
    "sep_start": "2026-08-24",
    "sep_end": "2027-10-31",
    "areas": [
     "Palo Pinto"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5675-TX) has since closed the incident on Sep 16, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5675-TX) has since closed the incident on Sep 16, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-09-16",
    "possible_sep_end": "2026-11-30"
   },
@@ -4113,17 +4307,16 @@
    "state": "TX",
    "type": "FEMA/FMAG",
    "name": "Hydra Fire",
-   "status": "New",
    "incident_start": "2026-09-14",
-   "incident_end": "2027-09-14",
+   "incident_end": null,
    "sep_start": "2026-09-14",
    "sep_end": "2027-11-30",
    "areas": [
     "Bosque"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5677-TX) has since closed the incident on Sep 25, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5677-TX) has since closed the incident on Sep 25, 2026. Under CMS rules the SEP may end as early as Nov 30, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-09-25",
    "possible_sep_end": "2026-11-30"
   },
@@ -4131,7 +4324,6 @@
    "state": "TX",
    "type": "FEMA",
    "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "status": "Amended (adds counties)",
    "incident_start": "2026-07-12",
    "incident_end": "2027-09-23",
    "sep_start": "2026-07-12",
@@ -4161,15 +4353,16 @@
     "Val Verde",
     "Zavala"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Amended",
+   "note": "9/24/26; Amendment added Grimes, Live Oak, McMullen, and Schleicher counties These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "fema_incident_end": "2026-08-04",
+   "possible_sep_end": "2026-10-31"
   },
   {
    "state": "UT",
    "type": "State",
-   "name": "Wildfires and Catastrophic Flooding",
-   "status": "New",
+   "name": "Wildfires and Catastrophic flooding",
    "incident_start": "2026-07-22",
    "incident_end": "2026-09-18",
    "sep_start": "2026-07-22",
@@ -4179,15 +4372,14 @@
     "Piute",
     "Sevier"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "UT",
    "type": "FEMA",
-   "name": "Cottonwood Fire, Flooding and Mudslides",
-   "status": "New",
+   "name": "Cottonwood Fire, Flooding, and Mudslides",
    "incident_start": "2026-07-13",
    "incident_end": "2026-11-05",
    "sep_start": "2026-07-13",
@@ -4196,54 +4388,51 @@
     "Beaver",
     "Piute"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "UT",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Cherry Fire",
-   "status": "New",
    "incident_start": "2026-06-26",
-   "incident_end": "2027-06-26",
+   "incident_end": null,
    "sep_start": "2026-06-26",
    "sep_end": "2027-08-31",
    "areas": [
     "Juab",
     "Tooele"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-06",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5641-UT) has since closed the incident on Jul 7, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5641-UT) has since closed the incident on Jul 7, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-07-07",
    "possible_sep_end": "2026-09-30"
   },
   {
    "state": "UT",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Cottonwood Fire",
-   "status": "New",
    "incident_start": "2026-06-22",
-   "incident_end": "2027-06-22",
+   "incident_end": null,
    "sep_start": "2026-06-22",
    "sep_end": "2027-08-31",
    "areas": [
     "Beaver City"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-29",
-   "note": "Listed as 'Beaver City County' (likely Beaver County) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5640-UT) has since closed the incident on Aug 5, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5640-UT) has since closed the incident on Aug 5, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-05",
    "possible_sep_end": "2026-10-31"
   },
   {
    "state": "UT",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Iron Fire",
-   "status": "New",
    "incident_start": "2026-06-19",
-   "incident_end": "2027-06-19",
+   "incident_end": null,
    "sep_start": "2026-06-19",
    "sep_end": "2027-08-31",
    "areas": [
@@ -4251,9 +4440,9 @@
     "Toole",
     "Utah"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-29",
-   "note": "'Toole' as listed (Utah county is Tooele) These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (FM-5639-UT) has since closed the incident on Jul 3, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5639-UT) has since closed the incident on Jul 3, 2026. Under CMS rules the SEP may have already ended (as early as Sep 30, 2026). Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-07-03",
    "possible_sep_end": "2026-09-30"
   },
@@ -4261,23 +4450,21 @@
    "state": "UT",
    "type": "FEMA/FMAG",
    "name": "Widemouth 2 Fire",
-   "status": "New",
    "incident_start": "2026-08-02",
    "incident_end": "2027-08-01",
    "sep_start": "2026-08-02",
-   "sep_end": "2027-10-01",
+   "sep_end": "2027-10-31",
    "areas": [
     "Millard"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "UT",
    "type": "FEMA/FMAG",
    "name": "Rocky Canyon Fire",
-   "status": "New",
    "incident_start": "2026-08-07",
    "incident_end": "2027-08-08",
    "sep_start": "2026-08-07",
@@ -4286,15 +4473,14 @@
     "Morgan",
     "Summit"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "VA",
    "type": "State",
    "name": "Drought",
-   "status": "New",
    "incident_start": "2026-09-08",
    "incident_end": "2026-11-28",
    "sep_start": "2026-09-08",
@@ -4302,47 +4488,14 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
    "type": "State",
-   "name": "Burn Ban - Drought Conditions",
-   "status": "New",
-   "incident_start": "2026-08-01",
-   "incident_end": "2026-09-28",
-   "sep_start": "2026-08-01",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
-  },
-  {
-   "state": "WA",
-   "type": "State",
-   "name": "Burn Ban, Drought Conditions and Wildfires",
-   "status": "New",
-   "incident_start": "2026-08-01",
-   "incident_end": "2026-10-08",
-   "sep_start": "2026-08-01",
-   "sep_end": "2026-11-30",
-   "areas": [
-    "All"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-17",
-   "note": null
-  },
-  {
-   "state": "WA",
-   "type": "FEMA",
    "name": "Lower Sugarloaf Complex Fire",
-   "status": "New (Declaration #850)",
    "incident_start": "2025-09-01",
    "incident_end": "2026-09-25",
    "sep_start": "2025-09-01",
@@ -4350,15 +4503,29 @@
    "areas": [
     "Chelan"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2025-10-08",
-   "note": "sender display name \"Cigna Healthcare Medicare\""
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
-   "type": "FEMA",
-   "name": "Wildfire Impacts Water Supply and Flood Risk",
-   "status": "New",
+   "type": "State",
+   "name": "Burn Ban, Drought Conditions and Wildfires",
+   "incident_start": "2026-08-01",
+   "incident_end": "2026-10-08",
+   "sep_start": "2026-08-01",
+   "sep_end": "2026-11-30",
+   "areas": [
+    "All"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "WA",
+   "type": "State",
+   "name": "Wildfire Impacts Water supply and Flood risk",
    "incident_start": "2026-08-28",
    "incident_end": "2026-10-25",
    "sep_start": "2026-08-28",
@@ -4367,15 +4534,14 @@
     "Columbia",
     "Walla Walla"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-08",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
    "type": "PHE",
    "name": "Wildfires",
-   "status": "New",
    "incident_start": "2026-08-01",
    "incident_end": "2026-12-02",
    "sep_start": "2026-08-01",
@@ -4383,15 +4549,45 @@
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
-   "type": "FEMA",
+   "type": "State",
+   "name": "Severe Storms, Straight-line Winds, Flooding, Landslides, and Mudslides",
+   "incident_start": "2025-12-09",
+   "incident_end": null,
+   "sep_start": "2025-12-09",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Benton",
+    "Chelan",
+    "Clallam",
+    "Grays Harbor",
+    "Jefferson",
+    "King",
+    "Kittitas",
+    "Lewis",
+    "Mason",
+    "Pierce",
+    "Samish",
+    "Skagit",
+    "Snohomish",
+    "Thurston",
+    "Wahkiakum",
+    "Whatcom",
+    "Yakima"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "WA",
+   "type": "FEMA/FMAG",
    "name": "Upriver Fire",
-   "status": "Renewed",
    "incident_start": "2026-06-16",
    "incident_end": "2027-06-15",
    "sep_start": "2026-06-16",
@@ -4399,15 +4595,14 @@
    "areas": [
     "Spokane"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-06-22",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Kaiser Canyon Fire",
-   "status": "New",
    "incident_start": "2026-07-16",
    "incident_end": "2027-07-16",
    "sep_start": "2026-07-16",
@@ -4415,15 +4610,14 @@
    "areas": [
     "Okangan"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-27",
-   "note": "'Okangan' as listed (likely Okanogan)"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Modrite Fire",
-   "status": "New",
    "incident_start": "2026-07-17",
    "incident_end": "2027-07-29",
    "sep_start": "2026-07-17",
@@ -4431,42 +4625,41 @@
    "areas": [
     "Ferry"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": "Entry lacks its own 'Declaration information' line; '(New)' appended to name line"
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Ransier Fire",
-   "status": "New",
    "incident_start": "2026-07-26",
    "incident_end": "2027-07-25",
    "sep_start": "2026-07-26",
    "sep_end": "2027-09-30",
    "areas": [
+    "Yakama Reservation",
     "Yakima"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
    "type": "FEMA/FMAG",
    "name": "Autumn Lane Fire",
-   "status": "New",
    "incident_start": "2026-08-01",
-   "incident_end": "2027-08-01",
+   "incident_end": null,
    "sep_start": "2026-08-01",
    "sep_end": "2027-10-31",
    "areas": [
     "Spokane",
     "Stevens"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
   },
@@ -4474,35 +4667,33 @@
    "state": "WA",
    "type": "FEMA/FMAG",
    "name": "Fairview Fire",
-   "status": "New",
    "incident_start": "2026-08-01",
-   "incident_end": "2027-08-01",
+   "incident_end": null,
    "sep_start": "2026-08-01",
    "sep_end": "2027-10-31",
    "areas": [
     "Spokane"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
   },
   {
    "state": "WA",
-   "type": "FEMA",
+   "type": "FEMA/FMAG",
    "name": "Old Trails Fire",
-   "status": "New",
    "incident_start": "2026-08-01",
-   "incident_end": "2027-07-31",
+   "incident_end": null,
    "sep_start": "2026-08-01",
    "sep_end": "2027-10-31",
    "areas": [
     "Spokane"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
   },
@@ -4510,7 +4701,6 @@
    "state": "WA",
    "type": "FEMA/FMAG",
    "name": "Sinlahekin Fire",
-   "status": "New",
    "incident_start": "2026-07-26",
    "incident_end": "2027-07-31",
    "sep_start": "2026-07-26",
@@ -4518,17 +4708,16 @@
    "areas": [
     "Okanogan"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WA",
    "type": "FEMA",
    "name": "Wildfires",
-   "status": "New",
    "incident_start": "2026-08-01",
-   "incident_end": "2027-08-02",
+   "incident_end": "2026-12-02",
    "sep_start": "2026-08-01",
    "sep_end": "2027-10-31",
    "areas": [
@@ -4538,13 +4727,14 @@
     "Spokane",
     "Stevens",
     "Yakima",
-    "Confederated Tribes and Bands of the Yakama Nation",
-    "Confederated Tribes of the Colville Reservation",
-    "Spokane Tribe of Indians"
+    "alongside the Confederated Tribes",
+    "Bands of the Yakama Nation",
+    "the Confederated Tribes of the Colville Reservation",
+    "the Spokane Tribe of Indians"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "status": "Active",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
   },
@@ -4552,7 +4742,6 @@
    "state": "WI",
    "type": "State",
    "name": "High Winds, Hail, and Tornadoes",
-   "status": "New",
    "incident_start": "2026-07-27",
    "incident_end": "2026-09-24",
    "sep_start": "2026-07-27",
@@ -4563,15 +4752,14 @@
     "Vilas",
     "Winnebago"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-31",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WI",
    "type": "FEMA",
    "name": "Severe Storms and Tornadoes",
-   "status": "New",
    "incident_start": "2026-07-27",
    "incident_end": "2026-11-05",
    "sep_start": "2026-07-27",
@@ -4580,15 +4768,29 @@
     "Vilas",
     "Winnebago"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "WV",
+   "type": "State",
+   "name": "Warehouse Fire",
+   "incident_start": "2026-07-05",
+   "incident_end": "2026-09-01",
+   "sep_start": "2026-07-05",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Wood"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WV",
    "type": "FEMA",
    "name": "Severe Storm",
-   "status": "New",
    "incident_start": "2026-07-21",
    "incident_end": "2026-09-01",
    "sep_start": "2026-07-21",
@@ -4597,31 +4799,14 @@
     "Lewis",
     "Upshur"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-07",
-   "note": null
-  },
-  {
-   "state": "WV",
-   "type": "FEMA",
-   "name": "Warehouse Fire",
-   "status": "New",
-   "incident_start": "2026-07-05",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-07-05",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Wood"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-07-13",
-   "note": null
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WV",
    "type": "State",
    "name": "Severe Flooding",
-   "status": "Amended",
    "incident_start": "2026-07-21",
    "incident_end": "2026-10-18",
    "sep_start": "2026-07-21",
@@ -4640,31 +4825,44 @@
     "Upshur",
     "Wetzel"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Amended",
+   "note": "8/14/26: Amendment: extends to only 12 counties until expiration date of 9/19/26, Barbour, Doddridge, Harrison, Lewis, Pendleton, Pleasants, Randolph, Ritchie, Tucker, Tyler, Upshur, and Wetzel counties. Date changed from 7/18/2026 - 10/31/2026  to 7/21/2026 - 11/30/2026",
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WV",
    "type": "State",
    "name": "Severe Storms and Flooding",
-   "status": "New",
-   "incident_start": "2026-08-16",
-   "incident_end": "2026-10-15",
+   "incident_start": "2026-08-14",
+   "incident_end": "2026-11-05",
    "sep_start": "2026-08-16",
    "sep_end": "2026-11-30",
    "areas": [
     "All"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-08-24",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "WV",
+   "type": "State",
+   "name": "Flooding",
+   "incident_start": "2026-09-10",
+   "incident_end": "2026-11-14",
+   "sep_start": "2026-09-10",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "Mason"
+   ],
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WV",
    "type": "State",
    "name": "Flash Flooding",
-   "status": "New",
    "incident_start": "2026-09-21",
    "incident_end": "2026-11-20",
    "sep_start": "2026-09-21",
@@ -4673,31 +4871,14 @@
     "Boone",
     "Lincoln"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-25",
-   "note": null
-  },
-  {
-   "state": "WV",
-   "type": "State",
-   "name": "Flooding",
-   "status": "New",
-   "incident_start": "2026-09-10",
-   "incident_end": "2026-11-14",
-   "sep_start": "2026-09-10",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "Mason"
-   ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-09-21",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WV",
    "type": "FEMA",
    "name": "Severe Storms and Flooding",
-   "status": "New",
    "incident_start": "2026-08-14",
    "incident_end": "2026-11-05",
    "sep_start": "2026-08-14",
@@ -4707,9 +4888,24 @@
     "Harrison",
     "Kanawha"
    ],
-   "source": "HealthSpring",
-   "source_email_date": "2026-10-20",
-   "note": null
+   "status": "Active",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "WY",
+   "type": "State",
+   "name": "Red Canyon Fire",
+   "incident_start": "2025-08-13",
+   "incident_end": null,
+   "sep_start": "2025-08-13",
+   "sep_end": "2026-10-31",
+   "areas": [
+    "Hot Springs"
+   ],
+   "status": "Expiring",
+   "note": null,
+   "source": "Carrier DST tracker (Oct 19, 2026)"
   }
  ],
  "fema_watch_note": "FEMA declarations with no matching carrier DST-SEP notice yet. SEP dates are not confirmed; check the carrier's SEP tracker before using.",
