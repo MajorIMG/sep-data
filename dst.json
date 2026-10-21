@@ -1,9 +1,9 @@
 {
  "schema": 2,
  "title": "Medicare disaster (DST) SEP list",
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "sources": {
-  "carrier": "Carrier DST tracker (Oct 19, 2026), plus HealthSpring weekly DST-SEP producer emails",
+  "carrier": "HealthSpring weekly DST-SEP producer emails (combined; each email covers only some states)",
   "fema": "FEMA OpenFEMA Disaster Declarations feed"
  },
  "notice": "Carrier lists are not complete and can contain typos. Always confirm eligibility and dates with the carrier before submitting. A DST SEP is not a standalone election period.",
@@ -55,22 +55,6 @@
   },
   {
    "state": "AL",
-   "type": "State",
-   "name": "Hurricane Isaias",
-   "incident_start": "2026-10-07",
-   "incident_end": "2027-02-08",
-   "sep_start": "2026-10-07",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "Baldwin",
-    "Mobile"
-   ],
-   "status": "Amended",
-   "note": "10/14/26: Amendment. Date changed from 10/7/2027 - 1/31/2027 to 10/7/2027 - 12/31/2026",
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "AL",
    "type": "PHE",
    "name": "Hurricane Isaias",
    "incident_start": "2026-10-07",
@@ -86,22 +70,37 @@
   },
   {
    "state": "AL",
+   "type": "State",
+   "name": "Hurricane Isaias",
+   "incident_start": "2026-10-07",
+   "incident_end": "2026-11-26",
+   "sep_start": "2026-10-07",
+   "sep_end": "2027-12-31",
+   "areas": [
+    "Baldwin",
+    "Mobile"
+   ],
+   "status": "Amended",
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "note": "Carrier's Oct 20, 2026 notice lists the incident ending Nov 26, 2026 but the SEP running to Dec 31, 2027, more than a year later; a state SEP normally ends about two months after the incident (Jan 31, 2027). The year may be a typo. Confirm with the carrier."
+  },
+  {
+   "state": "AL",
    "type": "FEMA",
    "name": "Hurricane Isaias",
    "incident_start": "2026-10-07",
-   "incident_end": "2027-02-08",
+   "incident_end": "2026-10-08",
    "sep_start": "2026-10-07",
    "sep_end": "2027-12-31",
    "areas": [
     "Baldwin",
     "Escambia",
     "Mobile",
-    "Poarch Creek Reservation",
-    "Trust Lands"
+    "Poarch Creek Reservation and Trust Lands"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
+   "source": "Carrier DST tracker (Oct 19, 2026)",
+   "note": "Carrier's Oct 20, 2026 notice lists the incident as Oct 7-8, 2026 but the SEP running to Dec 31, 2027. Either the incident end year is a typo (CMS one-year default would be Oct 2027) or the SEP end is too long (about Dec 31, 2026 under CMS rules). Confirm with the carrier."
   },
   {
    "state": "AR",
@@ -244,7 +243,7 @@
     "Tuolumne"
    ],
    "status": "Active",
-   "note": null,
+   "note": "Carrier email spells the county 'Toulumne' (Tuolumne).",
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
@@ -1011,7 +1010,7 @@
    "type": "FEMA",
    "name": "Hurricane Isaias",
    "incident_start": "2026-10-06",
-   "incident_end": "2027-02-08",
+   "incident_end": "2027-10-08",
    "sep_start": "2026-10-06",
    "sep_end": "2027-12-31",
    "areas": [
@@ -1038,13 +1037,14 @@
     "Okaloosa",
     "Santa Rosa",
     "Suwannee",
-    "Taylor Wakulla",
+    "Taylor",
+    "Wakulla",
     "Walton",
     "Washington"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3655-FL) has since closed the incident on Oct 12, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
+   "note": "Carrier email ran 'Taylor Wakulla' together; listed here as two counties. These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3655-FL) has since closed the incident on Oct 12, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
    "fema_incident_end": "2026-10-12",
    "possible_sep_end": "2026-12-31"
   },
@@ -1114,7 +1114,8 @@
     "Chattooga",
     "Cherokee",
     "Clarke",
-    "Clay Clayton",
+    "Clay",
+    "Clayton",
     "Cobb",
     "Colquitt",
     "Coweta",
@@ -1164,7 +1165,8 @@
     "Spalding",
     "Stewart",
     "Sumter",
-    "Talbot Taylor",
+    "Talbot",
+    "Taylor",
     "Terrell",
     "Thomas",
     "Towns",
@@ -1179,7 +1181,7 @@
     "Worth"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3657-GA) has since closed the incident on Oct 15, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
+   "note": "Carrier email ran 'Clay Clayton' and 'Talbot Taylor' together; listed here as separate counties. These dates use CMS's one-year default because no end date had been set when the carrier sent its notice. FEMA (EM-3657-GA) has since closed the incident on Oct 15, 2026. Under CMS rules the SEP may end as early as Dec 31, 2026. Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-10-15",
    "possible_sep_end": "2026-12-31"
@@ -1377,7 +1379,7 @@
    "sep_start": "2026-05-22",
    "sep_end": "2027-01-31",
    "areas": [
-    "Kona region in the of Hawaii"
+    "Kona Region in the County of Hawaii"
    ],
    "status": "Renewed",
    "note": "9/29/26: Renewal: Date changed from 5/22/2026 - 12/31/2026 to 5/22/2026 - 1/31/2027",
@@ -2325,7 +2327,7 @@
     "Commonwealth of the Northern Mariana Islands"
    ],
    "status": "Renewed",
-   "note": "10/7/26: Renewal: Date changed from 4/11/2026 - 12/31/2026 to 4/11/2026 - 3/21/2027",
+   "note": "10/7/26: Renewal: Date changed from 4/11/2026 - 12/31/2026 to 4/11/2026 - 3/21/2027 Carrier email printed the incident end as '02/022027'; read as Feb 2, 2027.",
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
@@ -2788,6 +2790,19 @@
    "status": "Active",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NM",
+   "type": "FEMA",
+   "name": "Severe Storms and Flooding",
+   "incident_start": "2026-07-16",
+   "incident_end": "2026-11-05",
+   "sep_start": "2026-07-16",
+   "sep_end": "2026-12-31",
+   "areas": [
+    "Pueblo of Zuni"
+   ],
+   "note": "Same name and dates as the NM State 'Severe Storms and Flooding' entry; the Oct 20, 2026 carrier notice lists it as a FEMA declaration."
   },
   {
    "state": "NV",
@@ -4911,30 +4926,6 @@
  "fema_watch_note": "FEMA declarations with no matching carrier DST-SEP notice yet. SEP dates are not confirmed; check the carrier's SEP tracker before using.",
  "fema_watch": [
   {
-   "fema_id": "FM-5635-CA",
-   "state": "CA",
-   "fema_type": "Fire Management (FMAG)",
-   "name": "Sandy Fire",
-   "declared": "2026-05-18",
-   "incident_start": "2026-05-18",
-   "incident_end": null,
-   "areas": [
-    "Ventura"
-   ]
-  },
-  {
-   "fema_id": "FM-5636-CA",
-   "state": "CA",
-   "fema_type": "Fire Management (FMAG)",
-   "name": "Bain Fire",
-   "declared": "2026-05-20",
-   "incident_start": "2026-05-19",
-   "incident_end": null,
-   "areas": [
-    "Riverside"
-   ]
-  },
-  {
    "fema_id": "EM-3659-GU",
    "state": "GU",
    "fema_type": "Emergency",
@@ -4943,7 +4934,7 @@
    "incident_start": "2026-10-16",
    "incident_end": null,
    "areas": [
-    "Guam (County-equivalent)"
+    "Guam"
    ]
   },
   {
@@ -4955,21 +4946,9 @@
    "incident_start": "2026-10-16",
    "incident_end": null,
    "areas": [
+    "Tinian",
     "Rota",
-    "Saipan",
-    "Tinian"
-   ]
-  },
-  {
-   "fema_id": "FM-5626-OK",
-   "state": "OK",
-   "fema_type": "Fire Management (FMAG)",
-   "name": "Buck Horn Fire",
-   "declared": "2026-03-19",
-   "incident_start": "2026-03-19",
-   "incident_end": null,
-   "areas": [
-    "Murray"
+    "Saipan"
    ]
   },
   {
@@ -4981,8 +4960,8 @@
    "incident_start": "2026-02-17",
    "incident_end": null,
    "areas": [
-    "Armstrong",
-    "Donley"
+    "Donley",
+    "Armstrong"
    ]
   },
   {
@@ -4994,8 +4973,8 @@
    "incident_start": "2026-07-25",
    "incident_end": null,
    "areas": [
-    "Yakama Reservation",
-    "Yakima"
+    "Yakima",
+    "Yakama Reservation"
    ]
   }
  ]
