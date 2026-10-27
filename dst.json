@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "title": "Medicare disaster (DST) SEP list",
- "updated": "2026-10-21",
+ "updated": "2026-10-27",
  "sources": {
   "carrier": "HealthSpring weekly DST-SEP producer emails (combined; each email covers only some states)",
   "fema": "FEMA OpenFEMA Disaster Declarations feed"
@@ -355,6 +355,22 @@
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
+   "state": "CA",
+   "type": "FEMA/FMAG",
+   "name": "Norte Fire",
+   "incident_start": "2026-10-16",
+   "incident_end": "2027-10-15",
+   "sep_start": "2026-10-16",
+   "sep_end": "2027-12-31",
+   "areas": [
+    "Orange"
+   ],
+   "status": "New",
+   "note": null,
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
    "state": "CO",
    "type": "State",
    "name": "Elk Fire",
@@ -568,6 +584,33 @@
    "status": "Active",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "CO",
+   "type": "State",
+   "name": "Flooding",
+   "incident_start": "2026-10-22",
+   "incident_end": "2026-12-19",
+   "sep_start": "2026-10-22",
+   "sep_end": "2027-01-31",
+   "areas": [
+    "Alamosa",
+    "Archuleta",
+    "Dolores",
+    "Hinsdale",
+    "La Plata",
+    "Mineral",
+    "Montezuma",
+    "Ouray",
+    "Rio Grande",
+    "San Juan",
+    "San Miguel",
+    "Telluride"
+   ],
+   "status": "New",
+   "note": "Carrier lists 'Telluride' among the counties; Telluride is a town in San Miguel County, not a county.",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
   },
   {
    "state": "CO",
@@ -961,6 +1004,36 @@
   },
   {
    "state": "FL",
+   "type": "FEMA",
+   "name": "May North Florida Tornadoes",
+   "incident_start": "2024-05-10",
+   "incident_end": "2027-01-12",
+   "sep_start": "2024-05-10",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "Baker",
+    "Columbia",
+    "Escambia",
+    "Gadsden",
+    "Hamilton",
+    "Jefferson",
+    "Lafayette",
+    "Leon",
+    "Liberty",
+    "Madison",
+    "Okaloosa",
+    "Santa Rosa",
+    "Suwannee",
+    "Taylor",
+    "Wakulla"
+   ],
+   "status": "Renewed",
+   "note": "Carrier's Oct 26, 2026 notice lists this as a FEMA declaration; earlier listings showed it as a State declaration (also on this list). A FEMA incident period for May 2024 tornadoes running to Jan 12, 2027 is unusual. Confirm the type and dates with the carrier.",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
+   "state": "FL",
    "type": "PHE",
    "name": "Hurricane Isaias",
    "incident_start": "2026-10-06",
@@ -1236,15 +1309,32 @@
    "type": "PHE",
    "name": "Typhoon Sinlaku",
    "incident_start": "2026-04-11",
-   "incident_end": "2026-11-05",
+   "incident_end": "2027-02-02",
    "sep_start": "2026-04-11",
-   "sep_end": "2026-12-31",
+   "sep_end": "2027-03-31",
    "areas": [
     "All"
    ],
    "status": "Renewed",
    "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
+   "state": "GU",
+   "type": "FEMA",
+   "name": "Typhoon Champi",
+   "incident_start": "2026-10-16",
+   "incident_end": "2027-10-16",
+   "sep_start": "2026-10-16",
+   "sep_end": "2027-12-31",
+   "areas": [
+    "All"
+   ],
+   "status": "New",
+   "note": null,
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
   },
   {
    "state": "HI",
@@ -1294,21 +1384,6 @@
   {
    "state": "HI",
    "type": "State",
-   "name": "Wildfires",
-   "incident_start": "2026-08-08",
-   "incident_end": "2026-11-21",
-   "sep_start": "2026-08-08",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "HI",
-   "type": "State",
    "name": "Tropical Storm LALA",
    "incident_start": "2026-08-13",
    "incident_end": "2026-11-17",
@@ -1319,21 +1394,6 @@
    ],
    "status": "Renewed",
    "note": "8/20/26: Renewal Dates changed from 8/13/2026 - 10/31/2026 to 8/13/2026 - 12/31/2026",
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "HI",
-   "type": "State",
-   "name": "Tropical Cyclones",
-   "incident_start": "2026-09-25",
-   "incident_end": "2026-12-20",
-   "sep_start": "2026-09-25",
-   "sep_end": "2026-12-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Active",
-   "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
@@ -1403,17 +1463,50 @@
   {
    "state": "HI",
    "type": "State",
-   "name": "Tropical Cyclones",
-   "incident_start": "2026-09-25",
-   "incident_end": "2026-12-20",
-   "sep_start": "2026-08-23",
-   "sep_end": "2027-01-31",
+   "name": "Wildfires",
+   "incident_start": "2023-08-08",
+   "incident_end": "2027-01-13",
+   "sep_start": "2023-08-08",
+   "sep_end": "2027-02-28",
    "areas": [
     "All"
    ],
-   "status": "Amended",
-   "note": "9/2/26: Renewal - Date changed from 8/23/2026 - 12/31/2026 to 8/23/2026 - 1/31/2027\n9/14/26: Amendment adding Hurricane Lowell to the disaster.",
-   "source": "Carrier DST tracker (Oct 19, 2026)"
+   "status": "Renewed",
+   "note": "Carrier's Oct 26, 2026 notice lists the start as Aug 8, 2023; earlier listings showed Aug 8, 2026. Kept the carrier's newest dates.",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "September Tropical Cyclones",
+   "incident_start": "2026-09-07",
+   "incident_end": "2027-01-18",
+   "sep_start": "2026-09-07",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "All"
+   ],
+   "status": "Renewed",
+   "note": "Oct 26, 2026 notice renames this 'September Tropical Cyclones' (previously listed as 'Tropical Cyclones' starting Sep 25, 2026).",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
+   "state": "HI",
+   "type": "State",
+   "name": "August Tropical Cyclones",
+   "incident_start": "2026-08-23",
+   "incident_end": "2027-01-13",
+   "sep_start": "2026-08-23",
+   "sep_end": "2027-02-28",
+   "areas": [
+    "All"
+   ],
+   "status": "Renewed",
+   "note": "9/2/26: Renewal - Date changed from 8/23/2026 - 12/31/2026 to 8/23/2026 - 1/31/2027\n9/14/26: Amendment adding Hurricane Lowell to the disaster. Oct 26, 2026 notice renames this 'August Tropical Cyclones' (previously listed as 'Tropical Cyclones').",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
   },
   {
    "state": "HI",
@@ -2349,6 +2442,24 @@
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
+   "state": "MP",
+   "type": "FEMA/FMAG",
+   "name": "Tropical Storm Champi",
+   "incident_start": "2026-10-16",
+   "incident_end": "2027-10-16",
+   "sep_start": "2026-10-16",
+   "sep_end": "2027-12-31",
+   "areas": [
+    "Rota",
+    "Saipan",
+    "Tinian"
+   ],
+   "status": "New",
+   "note": "Carrier labels this a FEMA/FMAG (fire) declaration; FEMA declared Tropical Storm Champi as an emergency (EM-3658-MP). Confirm the declaration type with the carrier.",
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
+  },
+  {
    "state": "MS",
    "type": "FEMA",
    "name": "Tropical Storm Arthur",
@@ -2432,6 +2543,23 @@
    "status": "Active",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
+  },
+  {
+   "state": "NC",
+   "type": "State",
+   "name": "Coastal Storms",
+   "incident_start": "2026-09-24",
+   "incident_end": "2026-12-19",
+   "sep_start": "2026-09-24",
+   "sep_end": "2027-01-31",
+   "areas": [
+    "Dare",
+    "Hyde"
+   ],
+   "status": "New",
+   "note": null,
+   "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
+   "source_email_date": "2026-10-26"
   },
   {
    "state": "ND",
@@ -4925,32 +5053,6 @@
  ],
  "fema_watch_note": "FEMA declarations with no matching carrier DST-SEP notice yet. SEP dates are not confirmed; check the carrier's SEP tracker before using.",
  "fema_watch": [
-  {
-   "fema_id": "EM-3659-GU",
-   "state": "GU",
-   "fema_type": "Emergency",
-   "name": "Typhoon Champi",
-   "declared": "2026-10-17",
-   "incident_start": "2026-10-16",
-   "incident_end": null,
-   "areas": [
-    "Guam"
-   ]
-  },
-  {
-   "fema_id": "EM-3658-MP",
-   "state": "MP",
-   "fema_type": "Emergency",
-   "name": "Tropical Storm Champi",
-   "declared": "2026-10-17",
-   "incident_start": "2026-10-16",
-   "incident_end": null,
-   "areas": [
-    "Tinian",
-    "Rota",
-    "Saipan"
-   ]
-  },
   {
    "fema_id": "FM-5619-TX",
    "state": "TX",
