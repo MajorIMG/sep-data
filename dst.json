@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "title": "Medicare disaster (DST) SEP list",
- "updated": "2026-10-27",
+ "updated": "2026-11-03",
  "sources": {
   "carrier": "HealthSpring weekly DST-SEP producer emails (combined; each email covers only some states)",
   "fema": "FEMA OpenFEMA Disaster Declarations feed"
@@ -129,7 +129,7 @@
     "Union"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5673-AR) has since closed the incident on Aug 26, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5673-AR) has since closed the incident on Aug 26, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-26",
    "possible_sep_end": "2026-10-31"
@@ -147,37 +147,6 @@
     "Ouachita"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "CA",
-   "type": "State",
-   "name": "Warehouse Fire",
-   "incident_start": "2026-06-17",
-   "incident_end": "2026-09-16",
-   "sep_start": "2026-06-17",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Los Angeles"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "CA",
-   "type": "FEMA/FMAG",
-   "name": "Canyon Fire",
-   "incident_start": "2025-08-07",
-   "incident_end": null,
-   "sep_start": "2025-08-07",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Ventura",
-    "Los Angeles"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -369,66 +338,6 @@
    "note": null,
    "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
    "source_email_date": "2026-10-26"
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "Elk Fire",
-   "incident_start": "2025-08-02",
-   "incident_end": null,
-   "sep_start": "2025-08-02",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Rio Blanco"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "Green Ridge Fire",
-   "incident_start": "2026-07-12",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-12",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Routt"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "Lee Fire",
-   "incident_start": "2025-08-02",
-   "incident_end": null,
-   "sep_start": "2025-08-02",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Rio Blanco"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "CO",
-   "type": "State",
-   "name": "Oak Fire",
-   "incident_start": "2025-08-10",
-   "incident_end": null,
-   "sep_start": "2025-08-10",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Archuleta"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "CO",
@@ -670,35 +579,6 @@
    ],
    "status": "Active",
    "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "FL",
-   "type": "State",
-   "name": "May North Florida Tornadoes",
-   "incident_start": "2024-05-10",
-   "incident_end": "2026-09-15",
-   "sep_start": "2024-05-10",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Baker",
-    "Columbia",
-    "Escambia",
-    "Gadsden",
-    "Hamilton",
-    "Jefferson",
-    "Lafayette",
-    "Leon",
-    "Liberty",
-    "Madison",
-    "Okaloosa",
-    "Santa Rosa",
-    "Suwannee",
-    "Taylor",
-    "Wakulla"
-   ],
-   "status": "Expiring",
-   "note": "8/28/26: Renewal: Date changed from 5/10/2025 - 10/31/2026 to 5/10/2025 - 1/31/2027",
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
@@ -1262,21 +1142,6 @@
   {
    "state": "GU",
    "type": "FEMA",
-   "name": "Typhoon Bavi",
-   "incident_start": "2026-07-02",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-02",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": "8/10/26: Amendment closes incident period. Date changed from 7/2/2026 - 9/30/2027 to 7/2/2026 - 10/31/2026",
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "GU",
-   "type": "FEMA",
    "name": "Super Typhoon Bavi",
    "incident_start": "2026-07-04",
    "incident_end": "2026-11-05",
@@ -1335,36 +1200,6 @@
    "note": null,
    "source": "HealthSpring DST-SEP email (Oct 26, 2026)",
    "source_email_date": "2026-10-26"
-  },
-  {
-   "state": "HI",
-   "type": "State",
-   "name": "Kunia Road Fire",
-   "incident_start": "2025-08-19",
-   "incident_end": null,
-   "sep_start": "2025-08-19",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Honolulu"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "HI",
-   "type": "FEMA",
-   "name": "Hurricane LALA",
-   "incident_start": "2026-08-14",
-   "incident_end": "2026-11-05",
-   "sep_start": "2026-08-14",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Hawaii"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "HI",
@@ -1575,41 +1410,6 @@
   },
   {
    "state": "IA",
-   "type": "State",
-   "name": "Damaging Winds, Straight-line Winds, Thunderstorms and Flash Flooding",
-   "incident_start": "2026-07-20",
-   "incident_end": "2026-09-21",
-   "sep_start": "2026-07-20",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Franklin",
-    "Hardin"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "IA",
-   "type": "State",
-   "name": "Severe Weather, damaging winds, straight-line thunderstorms",
-   "incident_start": "2026-06-29",
-   "incident_end": "2026-09-05",
-   "sep_start": "2026-06-29",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Hamilton",
-    "Jasper",
-    "Osceola",
-    "Polk",
-    "Story"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "IA",
    "type": "FEMA",
    "name": "Severe Storms and Flooding",
    "incident_start": "2026-07-01",
@@ -1668,21 +1468,6 @@
     "Pottawattamie"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "ID",
-   "type": "State",
-   "name": "Sunset Fire",
-   "incident_start": "2025-08-13",
-   "incident_end": null,
-   "sep_start": "2025-08-13",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Bonner"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -2002,7 +1787,7 @@
     "White"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-24",
    "possible_sep_end": "2026-10-31"
@@ -2039,7 +1824,7 @@
     "Wayne"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4933-IN, EM-3651-IN) has since closed the incident on Aug 24, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-24",
    "possible_sep_end": "2026-10-31"
@@ -2193,21 +1978,6 @@
   {
    "state": "LA",
    "type": "State",
-   "name": "Tropical Storm Bertha",
-   "incident_start": "2026-07-22",
-   "incident_end": "2026-09-03",
-   "sep_start": "2026-07-22",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "LA",
-   "type": "State",
    "name": "Tropical Storm Arthur",
    "incident_start": "2026-06-17",
    "incident_end": "2026-10-04",
@@ -2244,38 +2014,6 @@
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
-   "state": "MI",
-   "type": "State",
-   "name": "Significant rain event",
-   "incident_start": "2026-06-29",
-   "incident_end": "2026-09-04",
-   "sep_start": "2026-06-29",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Antrim",
-    "Cheboygan",
-    "Emmet"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "MN",
-   "type": "State",
-   "name": "Wildfires",
-   "incident_start": "2026-07-11",
-   "incident_end": "2026-09-09",
-   "sep_start": "2026-07-11",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
    "state": "MN",
    "type": "State",
    "name": "Severe Storms and Straight-line Winds",
@@ -2287,69 +2025,6 @@
     "Leech Lake Band of Ojibwe Tribe"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "MO",
-   "type": "State",
-   "name": "Straight-line winds, Tornadoes and Flooding",
-   "incident_start": "2026-07-09",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "MO",
-   "type": "FEMA",
-   "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "incident_start": "2026-06-04",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-06-04",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Adair",
-    "Andrew",
-    "Callaway",
-    "Camden",
-    "Cape Girardeau",
-    "Dade",
-    "Daviess",
-    "Gasconade",
-    "Gentry",
-    "Grundy",
-    "Harrison",
-    "Hickory",
-    "Holt",
-    "Jasper",
-    "Knox",
-    "Lewis",
-    "Linn",
-    "Macon",
-    "Marion",
-    "Mercer",
-    "Miller",
-    "Moniteau",
-    "Morgan",
-    "Newton",
-    "Nodaway",
-    "Osage",
-    "Polk",
-    "Putnam",
-    "Scott",
-    "Shelby",
-    "Sullivan",
-    "Vernon",
-    "Webster",
-    "Worth"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -2373,23 +2048,6 @@
     "Wayne"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "MP",
-   "type": "FEMA",
-   "name": "Super Typhoon Bavi",
-   "incident_start": "2026-07-04",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-07-04",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Rota",
-    "Saipan",
-    "Tinian"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -2480,23 +2138,6 @@
   },
   {
    "state": "MT",
-   "type": "FEMA/FMAG",
-   "name": "Windy Rock Fire",
-   "incident_start": "2025-08-14",
-   "incident_end": null,
-   "sep_start": "2025-08-14",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Powell"
-   ],
-   "status": "Expiring",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5611-MT) has since closed the incident on Sep 19, 2025. Under CMS rules the SEP may have already ended (as early as Nov 30, 2025). Confirm with the carrier before using it.",
-   "source": "Carrier DST tracker (Oct 19, 2026)",
-   "fema_incident_end": "2025-09-19",
-   "possible_sep_end": "2025-11-30"
-  },
-  {
-   "state": "MT",
    "type": "State",
    "name": "Flooding",
    "incident_start": "2026-07-03",
@@ -2564,21 +2205,6 @@
   {
    "state": "ND",
    "type": "State",
-   "name": "Severe Thunderstorms",
-   "incident_start": "2026-06-07",
-   "incident_end": "2026-09-18",
-   "sep_start": "2026-06-07",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "ND",
-   "type": "State",
    "name": "Extreme Drought",
    "incident_start": "2026-08-06",
    "incident_end": "2026-10-25",
@@ -2624,73 +2250,6 @@
     "All"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NE",
-   "type": "State",
-   "name": "Log Road Fire",
-   "incident_start": "2026-06-09",
-   "incident_end": "2026-09-26",
-   "sep_start": "2026-06-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Sioux"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NE",
-   "type": "State",
-   "name": "Severe Thunderstorms",
-   "incident_start": "2026-06-08",
-   "incident_end": "2026-09-26",
-   "sep_start": "2026-06-08",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Morril"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NE",
-   "type": "State",
-   "name": "Wildfire",
-   "incident_start": "2026-06-09",
-   "incident_end": null,
-   "sep_start": "2026-06-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Sioux"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NE",
-   "type": "FEMA",
-   "name": "Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
-   "incident_start": "2026-05-15",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-05-15",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Buffalo",
-    "Fillmore",
-    "Gage",
-    "Howard",
-    "Jefferson",
-    "Nemaha",
-    "Thayer",
-    "Thurston"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -2861,21 +2420,6 @@
   {
    "state": "NM",
    "type": "State",
-   "name": "Flooding",
-   "incident_start": "2026-09-29",
-   "incident_end": "2026-11-26",
-   "sep_start": "2026-07-22",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "All"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NM",
-   "type": "State",
    "name": "Frijoles Fire",
    "incident_start": "2026-08-04",
    "incident_end": "2026-10-08",
@@ -2934,83 +2478,6 @@
   },
   {
    "state": "NV",
-   "type": "State",
-   "name": "Peavine Fire",
-   "incident_start": "2025-08-02",
-   "incident_end": null,
-   "sep_start": "2025-08-02",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Washoe"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NV",
-   "type": "State",
-   "name": "Bug Fire",
-   "incident_start": "2026-08-08",
-   "incident_end": "2026-09-15",
-   "sep_start": "2026-08-08",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Washoe",
-    "Reno-Sparks Indian Colony"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NV",
-   "type": "State",
-   "name": "Fred Mountain Fire",
-   "incident_start": "2026-08-09",
-   "incident_end": "2026-09-15",
-   "sep_start": "2026-08-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Washoe",
-    "Reno-Sparks Indian Colony"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NV",
-   "type": "State",
-   "name": "Hawk Fire",
-   "incident_start": "2026-08-22",
-   "incident_end": "2026-09-27",
-   "sep_start": "2026-08-22",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Washoe"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NV",
-   "type": "FEMA/FMAG",
-   "name": "Fred Mountain Fire",
-   "incident_start": "2026-08-09",
-   "incident_end": "2026-09-15",
-   "sep_start": "2026-08-09",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Washoe"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "NV",
    "type": "FEMA/FMAG",
    "name": "Hawk Fire",
    "incident_start": "2026-08-22",
@@ -3036,7 +2503,7 @@
     "Washoe"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5668-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5668-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-17",
    "possible_sep_end": "2026-10-31"
@@ -3053,7 +2520,7 @@
     "Washoe"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5663-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5663-NV) has since closed the incident on Aug 17, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-17",
    "possible_sep_end": "2026-10-31"
@@ -3201,22 +2668,6 @@
   },
   {
    "state": "OK",
-   "type": "State",
-   "name": "Dangerous severe weather, high winds, and flooding",
-   "incident_start": "2026-07-04",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-07-04",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Cleveland",
-    "Washington"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OK",
    "type": "FEMA/FMAG",
    "name": "1170 Road Fire",
    "incident_start": "2026-03-15",
@@ -3290,7 +2741,7 @@
     "Oklahoma"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5669-OK) has since closed the incident on Aug 16, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5669-OK) has since closed the incident on Aug 16, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-16",
    "possible_sep_end": "2026-10-31"
@@ -3314,190 +2765,6 @@
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-07-04",
    "possible_sep_end": "2026-09-30"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "East Evans Creek Road Fire",
-   "incident_start": "2026-07-10",
-   "incident_end": "2026-09-07",
-   "sep_start": "2026-07-10",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Jackson"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Flat Fire",
-   "incident_start": "2025-08-21",
-   "incident_end": null,
-   "sep_start": "2025-08-21",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Deschutes",
-    "Jefferson"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Olive Butte Fire",
-   "incident_start": "2026-07-11",
-   "incident_end": "2026-09-08",
-   "sep_start": "2026-07-11",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Grant"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Akawa Butte and Brewer Fires",
-   "incident_start": "2026-07-18",
-   "incident_end": "2026-09-16",
-   "sep_start": "2026-07-18",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Deschutes",
-    "Jelltrson"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Bench and Beachcomb Fires",
-   "incident_start": "2026-07-25",
-   "incident_end": "2026-09-22",
-   "sep_start": "2026-07-25",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Jefferson"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Crosswhite West Fire",
-   "incident_start": "2026-07-24",
-   "incident_end": "2026-09-21",
-   "sep_start": "2026-07-24",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Crook",
-    "Jefferson"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Hagen Fire",
-   "incident_start": "2026-07-21",
-   "incident_end": "2026-09-18",
-   "sep_start": "2026-07-21",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Umatilla"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Lower Dry Creek Fire",
-   "incident_start": "2026-07-15",
-   "incident_end": "2026-09-11",
-   "sep_start": "2026-07-15",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Umatilla"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Rowe Creek Complex",
-   "incident_start": "2026-07-17",
-   "incident_end": "2026-09-13",
-   "sep_start": "2026-07-17",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Wheeler"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Second Flat Fire",
-   "incident_start": "2026-07-26",
-   "incident_end": "2026-09-22",
-   "sep_start": "2026-07-26",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Hareny"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Shingle Fire",
-   "incident_start": "2026-07-25",
-   "incident_end": "2026-09-21",
-   "sep_start": "2026-07-25",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Grant",
-    "Wheeler"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "OR",
-   "type": "State",
-   "name": "Grasshopper Fire",
-   "incident_start": "2026-07-29",
-   "incident_end": "2026-09-25",
-   "sep_start": "2026-07-29",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Wasco"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "OR",
@@ -4424,7 +3691,7 @@
     "Zavala"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-04",
    "possible_sep_end": "2026-10-31"
@@ -4497,27 +3764,10 @@
     "Zavala"
    ],
    "status": "Amended",
-   "note": "9/24/26; Amendment added Grimes, Live Oak, McMullen, and Schleicher counties These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "9/24/26; Amendment added Grimes, Live Oak, McMullen, and Schleicher counties These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (DR-4935-TX, EM-3649-TX) has since closed the incident on Aug 4, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-04",
    "possible_sep_end": "2026-10-31"
-  },
-  {
-   "state": "UT",
-   "type": "State",
-   "name": "Wildfires and Catastrophic flooding",
-   "incident_start": "2026-07-22",
-   "incident_end": "2026-09-18",
-   "sep_start": "2026-07-22",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Beaver",
-    "Piute",
-    "Sevier"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "UT",
@@ -4565,7 +3815,7 @@
     "Beaver City"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5640-UT) has since closed the incident on Aug 5, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (FM-5640-UT) has since closed the incident on Aug 5, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-05",
    "possible_sep_end": "2026-10-31"
@@ -4801,7 +4051,7 @@
     "Stevens"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
@@ -4818,7 +4068,7 @@
     "Spokane"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
@@ -4835,7 +4085,7 @@
     "Spokane"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
@@ -4876,28 +4126,10 @@
     "the Spokane Tribe of Indians"
    ],
    "status": "Active",
-   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may end as early as Oct 31, 2026. Confirm with the carrier before using it.",
+   "note": "These dates use CMS's one-year default because no end date had been set when the carrier listed it. FEMA (EM-3650-WA, FM-5656-WA, FM-5657-WA, FM-5658-WA, FM-5659-WA) has since closed the incident on Aug 31, 2026. Under CMS rules the SEP may have already ended (as early as Oct 31, 2026). Confirm with the carrier before using it.",
    "source": "Carrier DST tracker (Oct 19, 2026)",
    "fema_incident_end": "2026-08-31",
    "possible_sep_end": "2026-10-31"
-  },
-  {
-   "state": "WI",
-   "type": "State",
-   "name": "High Winds, Hail, and Tornadoes",
-   "incident_start": "2026-07-27",
-   "incident_end": "2026-09-24",
-   "sep_start": "2026-07-27",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Forest",
-    "Outagamie",
-    "Vilas",
-    "Winnebago"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   },
   {
    "state": "WI",
@@ -4912,37 +4144,6 @@
     "Winnebago"
    ],
    "status": "Active",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "WV",
-   "type": "State",
-   "name": "Warehouse Fire",
-   "incident_start": "2026-07-05",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-07-05",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Wood"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "WV",
-   "type": "FEMA",
-   "name": "Severe Storm",
-   "incident_start": "2026-07-21",
-   "incident_end": "2026-09-01",
-   "sep_start": "2026-07-21",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Lewis",
-    "Upshur"
-   ],
-   "status": "Expiring",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
   },
@@ -5034,25 +4235,30 @@
    "status": "Active",
    "note": null,
    "source": "Carrier DST tracker (Oct 19, 2026)"
-  },
-  {
-   "state": "WY",
-   "type": "State",
-   "name": "Red Canyon Fire",
-   "incident_start": "2025-08-13",
-   "incident_end": null,
-   "sep_start": "2025-08-13",
-   "sep_end": "2026-10-31",
-   "areas": [
-    "Hot Springs"
-   ],
-   "status": "Expiring",
-   "note": null,
-   "source": "Carrier DST tracker (Oct 19, 2026)"
   }
  ],
  "fema_watch_note": "FEMA declarations with no matching carrier DST-SEP notice yet. SEP dates are not confirmed; check the carrier's SEP tracker before using.",
  "fema_watch": [
+  {
+   "fema_id": "EM-3660-NM",
+   "state": "NM",
+   "fema_type": "Emergency",
+   "name": "Severe Storms And Flooding",
+   "declared": "2026-10-26",
+   "incident_start": "2026-10-22",
+   "incident_end": null,
+   "areas": [
+    "Jicarilla Apache Indian Reservation",
+    "Pueblo of Acoma",
+    "San Ildefonso Pueblo",
+    "Laguna Pueblo",
+    "Sandoval",
+    "Zia Pueblo",
+    "Rio Arriba",
+    "San Juan",
+    "Cibola"
+   ]
+  },
   {
    "fema_id": "FM-5619-TX",
    "state": "TX",
